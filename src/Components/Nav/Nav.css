@@ -1,0 +1,8 @@
+#languages, #currencies{
+    border: 1px solid rgb(194, 192, 60);
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    text-shadow: 1px 1px 2px rgb(194, 192, 60);
+    color: rgb(14, 155, 16);
+}

@@ -5,6 +5,7 @@ import Image from "next/image";
 import reset from "../../Assets/reset_light_mode.png";
 import { HomeContext } from "@/Utils/context";
 import { useTranslation } from "react-i18next";
+import './Nav.css';
 
 interface NavProps {};
 
@@ -21,13 +22,13 @@ const Nav = ({}: NavProps) => {
     const changeLanguage = (language: string) => {
         setSelectedLanguage(language);
         i18n.changeLanguage(language);
-    }
+    };
 
     return (
-      <div className="flex w-full h-[70px] shadow-md">
-            <div className="flex w-fit h-full items-center justify-between gap-2">
-                    <label>Select Language</label>
-                    <select onChange={(e) => changeLanguage(String(e.target.value))} value={selectedLanguage} className="font-semibold w-fit">
+      <div className="flex w-full h-[85px] shadow-md shadow-[#c2c03c] items-center gap-4 py-2 px-4">
+            <div className="flex flex-col w-fit h-full gap-1 font-mono">
+                    <label className="font-semibold cursor-pointer text-md" htmlFor="languages">Select Language</label>
+                    <select id="languages" onChange={(e) => changeLanguage(String(e.target.value))} value={selectedLanguage} className="font-semibold w-fit">
                         {languages?.map((language) => (
                             <option className="font-semibold" key={language.code} value={language.code}>
                                 {`${language.name}${language.lname !== 'English' ? " - " +language.lname : ''}`}
@@ -36,8 +37,8 @@ const Nav = ({}: NavProps) => {
                     </select>
             </div>
                        &emsp;
-            <div className="flex w-fit h-full items-center justify-between gap-2">
-                    <label htmlFor="currencies">Select Currency</label>
+            <div className="flex flex-col w-fit h-full gap-1 font-mono">
+                    <label className="font-semibold cursor-pointer text-md" htmlFor="currencies">Select Currency</label>
                     <select onChange={(e) => setSelectedCurrency(Number(e.target.value))} value={selectedCurrency} id="currencies" className="font-semibold w-fit">
                         {currencies?.map((currencie) => (
                             <option className="font-semibold" key={currencie.id} value={currencie.id}>
@@ -47,12 +48,10 @@ const Nav = ({}: NavProps) => {
                     </select>
             </div>
 
-            <div onClick={handleReset} className="px-6 flex w-fit h-full items-center justify-between gap-2 cursor-pointer">
+            <div onClick={handleReset} className="mt-4 px-6 flex py-1 rounded-md w-fit h-fit items-center justify-between gap-2 cursor-pointer transition-all duration-300 ease-in-out bg-blue-400 text-semibold active:translate-y-1 active:translate-x-1 active:shadow-lg active:bg-blue-500">
                 <p className="font-semibold">Reset</p>
                 <Image src={reset} alt="reset" className="w-4 h-4" />
             </div>
-
-            <p>{t("greetings")}</p>
       </div>  
     );
 }
