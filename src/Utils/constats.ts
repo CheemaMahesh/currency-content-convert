@@ -67,10 +67,6 @@ export const languages: { id: number; name: string; code: string; lname: string 
       title: 'Welcome to Shoe World!',
       contact:{
         name:'Reach out to use and say Hello!',
-        email:'maheshc2002k@gmail.com',
-        phone:'7095948442',
-        linkedin: 'https://www.linkedin.com/in/mahesh-cheema-a7b771271/',
-        github: 'https://github.com/CheemaMahesh',
       },
       sold: 'Sold',
       aboutContent: "We are a dedicated footwear reselling organization focused on providing the latest styles to our customers. Our collection features popular brands that reflect current trends, ensuring quality and comfort in every pair.Our user-friendly platform makes shopping easy and enjoyable. We believe that footwear is a personal expression of style, and we strive to help you find the perfect pair that suits your individuality. Join us in exploring our curated selection and experience the difference in quality and service that sets us apart.",
@@ -476,1212 +472,689 @@ export const languages: { id: number; name: string; code: string; lname: string 
     meta: {
       available: 'Disponible',
       sold: 'Venta',
+      title: '¡Bienvenidos al mundo del calzado!',
+      contact: {
+        name: '¡Comuníquese para usar y diga Hola!',
+      },
+      aboutContent: "Somos una organización dedicada a la reventa de calzado enfocada en brindar los últimos estilos a nuestros clientes. Nuestra colección presenta marcas populares que reflejan las tendencias actuales, garantizando calidad y comodidad en cada par. Nuestra plataforma fácil de usar hace que comprar sea fácil y agradable. Creemos que el calzado es una expresión personal de estilo y nos esforzamos por ayudarle a encontrar el par perfecto que se adapte a su individualidad. Únase a nosotros para explorar nuestra selección curada y experimente la diferencia en calidad y servicio que nos distingue.",
     },
     products: [
       {
         name: "Nike Dunk Bajo Retro",
-        description: "Creado para la cancha de baloncesto pero llevado a las calles, el Nike Dunk Bajo Retro regresa con superposiciones nítidas y colores de equipo originales. Este ícono del baloncesto canaliza las vibras de los años 80 con cuero premium en la parte superior que se ve bien y se adapta aún mejor. La tecnología moderna de calzado ayuda a llevar la comodidad al siglo XXI.",
-        price: {
-          amount: 8295,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo Retro.",
+        price: { amount: 8295, currency: "INR" },
         image: img1,
-        inventory: {
-          available: 100,
-          sold: 10
-        }
+        inventory: { available: 100, sold: 10 }
       },
       {
         name: "Nike Dunk Bajo Retro SE",
-        description: "Siempre puedes contar con un clásico. El Dunk Bajo Retro combina un aspecto monocromático con materiales premium y un acolchado lujoso para una comodidad que cambia el juego y dura. Las posibilidades son infinitas: ¿cómo usarás tus Dunks?",
-        price: {
-          amount: 10795,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo Retro SE.",
+        price: { amount: 10795, currency: "INR" },
         image: img2,
-        inventory: {
-          available: 200,
-          sold: 20
-        }
+        inventory: { available: 200, sold: 20 }
       },
       {
         name: "Nike Dunk Bajo Retro SE S2",
-        description: "Siempre puedes contar con un clásico. El Dunk Bajo Retro combina un aspecto monocromático con materiales premium y un acolchado lujoso para una comodidad que cambia el juego y dura. Las posibilidades son infinitas: ¿cómo usarás tus Dunks?",
-        price: {
-          amount: 10795,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo Retro SE S2.",
+        price: { amount: 10795, currency: "INR" },
         image: img3,
-        inventory: {
-          available: 150,
-          sold: 15
-        }
+        inventory: { available: 150, sold: 15 }
       },
       {
         name: "Nike Dunk Bajo SE A#",
-        description: "Extremadamente versátil, sorprendentemente limpio y oh tan clásico. El Dunk Bajo mezcla ante y cuero para un acabado impecable. Viene completo con un collar acolchado, amortiguación ligera y una suela de goma. Átate los cordones y lleva las vibras de la playa contigo.",
-        price: {
-          amount: 11899,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo SE A#.",
+        price: { amount: 11899, currency: "INR" },
         image: img4,
-        inventory: {
-          available: 80,
-          sold: 5
-        }
+        inventory: { available: 80, sold: 5 }
       },
       {
         name: "Nike SB Dunk Bajo Pro",
-        description: "Un ícono del baloncesto de los años 80 regresa con detalles clásicos y un estilo retro. Canalizando el estilo vintage de vuelta a las calles, su collar bajo acolchado te permite llevar tu juego cómodamente a cualquier lugar.",
-        price: {
-          amount: 5999,
-          currency: "USD"
-        },
+        description: "Descripción Nike SB Dunk Bajo Pro.",
+        price: { amount: 5999, currency: "USD" },
         image: img5,
-        inventory: {
-          available: 60,
-          sold: 2
-        }
+        inventory: { available: 60, sold: 2 }
       },
       {
         name: "Nike Dunk Bajo",
         isSpecial: true,
-        description: "El ícono de los años 80 regresa con detalles clásicos y un estilo retro. Canalizando el estilo vintage de vuelta a las calles, su collar acolchado te permite llevar tu juego a cualquier lugar, con comodidad.",
-        price: {
-          amount: 6999,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo.",
+        price: { amount: 6999, currency: "INR" },
         image: img6,
-        inventory: {
-          available: 90,
-          sold: 8
-        }
+        inventory: { available: 90, sold: 8 }
       },
       {
         name: "Nike Dunk Bajo 34",
-        description: "Reconociendo las raíces del Dunk como la zapatilla de equipo universitario de más alto rango, el Paquete Be True To Your School busca inspiración en la campaña publicitaria original. Los colores representan universidades de primer nivel, mientras que el cuero nítido tiene la cantidad perfecta de brillo para hacer de ellos un triunfo indiscutible. Así que átalos y muestra ese espíritu universitario. ¿Estás listo?",
-        price: {
-          amount: 7999,
-          currency: "INR"
-        },
+        description: "Descripción Nike Dunk Bajo 34.",
+        price: { amount: 7999, currency: "INR" },
         image: img7,
-        inventory: {
-          available: 110,
-          sold: 12
-        }
+        inventory: { available: 110, sold: 12 }
       },
       {
         name: "Nike Hilander Pro Hombre",
-        description: "Siempre puedes contar con un clásico. Este diseño de bloques de color combina cuero y ante con un acolchado lujoso para una comodidad que cambia el juego y dura. Las posibilidades son infinitas: ¿cómo usarás tus Dunks?",
-        price: {
-          amount: 8999,
-          currency: "INR"
-        },
+        description: "Descripción Nike Hilander Pro Hombre.",
+        price: { amount: 8999, currency: "INR" },
         image: img8,
-        inventory: {
-          available: 70,
-          sold: 3
-        }
+        inventory: { available: 70, sold: 3 }
       },
       {
         name: "Nike Retro Premium 1980",
-        description: "Siempre puedes contar con un clásico. Esta versión premium del Dunk Bajo combina materiales mixtos con una parte superior completamente negra para un aspecto usable y una comodidad que dura. Las posibilidades son infinitas: ¿cómo usarás tus Dunks?",
-        price: {
-          amount: 9999,
-          currency: "INR"
-        },
+        description: "Descripción Nike Retro Premium 1980.",
+        price: { amount: 9999, currency: "INR" },
         image: img9,
-        inventory: {
-          available: 50,
-          sold: 1
-        }
+        inventory: { available: 50, sold: 1 }
       },
       {
-        name: "Nike Jordans Edición Limitada",
-        description: "Siempre puedes contar con un clásico. El Dunk Bajo combina su icónica combinación de colores con materiales premium y un acolchado lujoso para una comodidad que cambia el juego y dura. Las posibilidades son infinitas: ¿cómo usarás tus Dunks?",
-        price: {
-          amount: 10999,
-          currency: "INR"
-        },
+        name: "Nike Jordan Edición Limitada",
+        description: "Descripción Nike Jordan Edición Limitada.",
+        price: { amount: 10999, currency: "INR" },
         image: img10,
-        inventory: {
-          available: 40,
-          sold: 0
-        }
+        inventory: { available: 40, sold: 0 }
       },
       {
         name: "Samba OG",
-        description: "Nacido en el campo, el Samba es un ícono atemporal del estilo urbano. Esta silueta se mantiene fiel a su legado con una parte superior de cuero suave, discreta y de bajo perfil, superposiciones de ante y suela de goma, convirtiéndola en un básico en el armario de todos, dentro y fuera del campo.",
-        price: {
-          amount: 11999,
-          currency: "INR"
-        },
+        description: "Descripción Samba OG.",
+        price: { amount: 11999, currency: "INR" },
         image: img11,
-        inventory: {
-          available: 30,
-          sold: 1
-        }
+        inventory: { available: 30, sold: 1 }
       },
       {
-        name: "Fair Run 4",
-        description: "Zapatos para la diversión que tienes. Estas zapatillas del sistema Torsion de adidas tienen mucha personalidad. La parte superior suave proporciona comodidad y flexibilidad, mientras que el forro textil y la suela de goma ofrecen la mezcla perfecta de amortiguación y estabilidad. Atrévete con estas zapatillas destacadas.",
-        price: {
-          amount: 12999,
-          currency: "INR"
-        },
+        name: "Carrera justa 4",
+        description: "Descripción Carrera justa 4.",
+        price: { amount: 12999, currency: "INR" },
         image: img12,
-        inventory: {
-          available: 20,
-          sold: 0
-        }
+        inventory: { available: 20, sold: 0 }
       },
       {
-        name: "Vent Shoot '96",
-        description: "Este producto está hecho con materiales 100% reciclados. Al reutilizar materiales que ya se han creado, ayudamos a reducir el desperdicio y nuestra dependencia de recursos finitos y a reducir la huella de los productos que fabricamos.",
-        price: {
-          amount: 799,
-          currency: "INR"
-        },
+        name: "Disparo de ventilación '96",
+        description: "Descripción Disparo de ventilación '96.",
+        price: { amount: 799, currency: "INR" },
         image: img13,
-        inventory: {
-          available: 10,
-          sold: 2
-        }
+        inventory: { available: 10, sold: 2 }
       },
       {
         name: "MPM 78",
-        description: "Zapatos para la diversión que tienes. Estas zapatillas del sistema Torsion de adidas tienen mucha personalidad. La parte superior suave proporciona comodidad y flexibilidad, mientras que el forro textil y la suela de goma ofrecen la mezcla perfecta de amortiguación y estabilidad. Atrévete con estas zapatillas destacadas.",
-        price: {
-          amount: 4499,
-          currency: "INR"
-        },
+        description: "Descripción MPM 78.",
+        price: { amount: 4499, currency: "INR" },
         image: img14,
-        inventory: {
-          available: 5,
-          sold: 0
-        }
+        inventory: { available: 5, sold: 0 }
       },
       {
-        name: "Asturned Run",
-        description: "Manténlo limpio: no importa cuánto ames nuestro producto, no uses palabras que no usarías con tu abuela. Concéntrate en el producto: si tienes un problema que no está relacionado con el producto en sí (por ejemplo, tiempo de entrega, precio), dirígete a nuestro equipo de servicio al cliente para asegurarte de que puedan ayudarte.",
-        price: {
-          amount: 4040,
-          currency: "INR"
-        },
+        name: "Carrera asombrada",
+        description: "Descripción Carrera asombrada.",
+        price: { amount: 4040, currency: "INR" },
         image: img15,
-        inventory: {
-          available: 15,
-          sold: 3
-        }
+        inventory: { available: 15, sold: 3 }
       },
       {
-        name: "Grand Court",
-        description: "Hecho con una serie de materiales reciclados, esta parte superior presenta al menos un 50% de contenido reciclado.",
-        price: {
-          amount: 16999,
-          currency: "INR"
-        },
+        name: "Gran Corte",
+        description: "Descripción Gran Corte.",
+        price: { amount: 16999, currency: "INR" },
         image: img16,
-        inventory: {
-          available: 25,
-          sold: 4
-        }
+        inventory: { available: 25, sold: 4 }
       },
       {
-        name: "ULTRA BOOST 1.0",
-        description: "Desde un paseo en el parque hasta una carrera de fin de semana con amigos, estas zapatillas adidas Ultraboost 1.0 están diseñadas para mantenerte cómodo. Una parte superior adidas PRIMEKNIT abraza suavemente tus pies mientras que BOOST en la entresuela amortigua desde el primer paso hasta la última milla.",
-        price: {
-          amount: 9999,
-          currency: "INR"
-        },
+        name: "ULTRA IMPULSO 1.0",
+        description: "Descripción ULTRA IMPULSO 1.0.",
+        price: { amount: 9999, currency: "INR" },
         image: img17,
-        inventory: {
-          available: 35,
-          sold: 5
-        }
+        inventory: { available: 35, sold: 5 }
       },
       {
-        name: "Cloud Foam 18 Retro",
-        description: "Tu opción preferida en días ocupados. Estas zapatillas adidas son elegantes y con estilo, combinándose fácilmente con todo, desde ropa de entrenamiento hasta jeans. La parte superior ligera está forrada para mayor comodidad, mientras que la amortiguación Cloudfoam te mantiene en movimiento cómodamente.",
-        price: {
-          amount: 5555,
-          currency: "INR"
-        },
+        name: "Nube de espuma 18 retro",
+        description: "Descripción Nube de espuma 18 retro.",
+        price: { amount: 5555, currency: "INR" },
         image: img18,
-        inventory: {
-          available: 45,
-          sold: 6
-        }
+        inventory: { available: 45, sold: 6 }
       },
       {
-        name: "DECODE ME",
-        description: "Póntelas y lleva tu pasión por las carreras contigo dondequiera que vayas. Una mezcla de ante y nylon le da a la parte superior una textura y estilo únicos que están hechos para durar. Las 3 Rayas en la parte superior en colores del equipo y un logotipo del equipo en la etiqueta del talón mantienen el aspecto oficial.",
-        price: {
-          amount: 6666,
-          currency: "INR"
-        },
+        name: "DECODIFICARME",
+        description: "Descripción DECODIFICARME.",
+        price: { amount: 6666, currency: "INR" },
         image: img19,
-        inventory: {
-          available: 55,
-          sold: 7
-        }
+        inventory: { available: 55, sold: 7 }
       },
       {
-        name: "Switch Run Cyan",
-        description: "Combinando estilo con detalles sin distracciones, la última gama de básicos de running de adidas te mantendrá luciendo tan bien como te sientes mientras recorres los kilómetros. Así que puedes concentrarte en lo que más importa: divertirte mientras avanzas.",
-        price: {
-          amount: 20999,
-          currency: "INR"
-        },
+        name: "Cambiar ejecutar cian",
+        description: "Descripción Cambiar ejecutar cian.",
+        price: { amount: 20999, currency: "INR" },
         image: img20,
-        inventory: {
-          available: 65,
-          sold: 8
-        }
+        inventory: { available: 65, sold: 8 }
       },
       {
-        name: "Eazy Beleciaga",
+        name: "Eazy Beliciaga",
         isSpecial: true,
-        description: "Balenciaga renuncia a toda responsabilidad en caso de que el consumidor no cumpla con las instrucciones de cuidado y manejo establecidas anteriormente o cualquier uso indebido. Comuníquese con el servicio al cliente de Balenciaga para obtener información adicional o asistencia.",
-        price: {
-          amount: 81999,
-          currency: "INR"
-        },
+        description: "Descripción Eazy Beliciaga.",
+        price: { amount: 81999, currency: "INR" },
         image: img21,
-        inventory: {
-          available: 75,
-          sold: 9
-        }
+        inventory: { available: 75, sold: 9 }
       },
       {
         name: "Producto 22",
         isSpecial: true,
-        description: "Devoluciones y cambios gratuitos dentro de los 30 días a partir de la fecha de entrega. Solo puede cambiar su artículo por un tamaño o color diferente. Se aplican exclusiones de productos. Para más información.",
-        price: {
-          amount: 92999,
-          currency: "INR"
-        },
+        description: "Descripción Producto 22.",
+        price: { amount: 92999, currency: "INR" },
         image: img22,
-        inventory: {
-          available: 85,
-          sold: 10
-        }
+        inventory: { available: 85, sold: 10 }
       },
       {
         name: "GUCCI B3D",
-        description: "En la colección de primavera-verano 2025, esta zapatilla Gucci cub3d combina materiales y construcción innovadores. La parte superior es una mezcla de Demetra y malla, con detalles creados con una técnica de alta frecuencia, mientras que la suela combina un interior relleno de EVA y TPU en el exterior, completado con un patrón de G entrelazado en 3D.",
-        price: {
-          amount: 23999,
-          currency: "INR"
-        },
+        description: "Descripción GUCCI B3D.",
+        price: { amount: 23999, currency: "INR" },
         image: img23,
-        inventory: {
-          available: 95,
-          sold: 11
-        }
+        inventory: { available: 95, sold: 11 }
       },
       {
         name: "Becca Hombre 6253BA",
-        description: "Suspensión fuerte para reducir el impacto. Parche de suspensión unibody equilibrado; mayor agarre con excelente impulso hacia adelante con un agarre sólido, no tienes que preocuparte por la abrasión.",
-        price: {
-          amount: 10000,
-          currency: "INR"
-        },
+        description: "Descripción Becca Hombre 6253BA.",
+        price: { amount: 10000, currency: "INR" },
         image: img24,
-        inventory: {
-          available: 105,
-          sold: 12
-        }
+        inventory: { available: 105, sold: 12 }
       },
       {
-        name: "Dominator C.10",
-        description: "Ligero y transpirable: estos zapatos de running para hombres están diseñados con materiales duraderos y tecnología de cordones fáciles de usar, lo que los hace ideales para trotar, caminar y hacer deporte. La parte superior de tela transpirable y la suela de Phylon ligera aseguran comodidad al correr.",
-        price: {
-          amount: 7990,
-          currency: "INR"
-        },
+        name: "Dominador C.10",
+        description: "Descripción Dominador C.10.",
+        price: { amount: 7990, currency: "INR" },
         image: img25,
-        inventory: {
-          available: 115,
-          sold: 13
-        }
+        inventory: { available: 115, sold: 13 }
       },
       {
-        name: "CEMENTIVE HOMBRES",
-        description: "Plantilla de espuma viscoelástica para proporcionar más amortiguación y comodidad.",
-        price: {
-          amount: 8001,
-          currency: "INR"
-        },
+        name: "HOMBRES CEMENTIVOS",
+        description: "Descripción HOMBRES CEMENTIVOS.",
+        price: { amount: 8001, currency: "INR" },
         image: img26,
-        inventory: {
-          available: 125,
-          sold: 14
-        }
+        inventory: { available: 125, sold: 14 }
       },
       {
-        name: "Red Chiesf Genune ATAG",
-        description: "FÁCIL DE COMBINAR - Estos zapatos para hombres tienen un diseño clásico de combinación de colores, fácil de combinar con la ropa. Puedes usar estos zapatos con jeans, pantalones casuales, pantalones cortos y bermudas. Perfecto para cualquier ocasión.",
-        price: {
-          amount: 2799,
-          currency: "INR"
-        },
+        name: "Jefe Rojo Genune ATAG",
+        description: "Descripción Jefe Rojo Genune ATAG.",
+        price: { amount: 2799, currency: "INR" },
         image: img27,
-        inventory: {
-          available: 135,
-          sold: 15
-        }
+        inventory: { available: 135, sold: 15 }
       },
       {
-        name: "Criterian Hombres 28",
-        description: "Comodidad: la construcción Derby flexible te da la libertad de moverte cómodamente. Plantilla de espuma ligeramente acolchada para comodidad y absorción de impactos.",
-        price: {
-          amount: 28966,
-          currency: "INR"
-        },
+        name: "Criterio Hombres 28",
+        description: "Descripción Criterio Hombres 28.",
+        price: { amount: 28966, currency: "INR" },
         image: img28,
-        inventory: {
-          available: 145,
-          sold: 16
-        }
+        inventory: { available: 145, sold: 16 }
       },
       {
-        name: "Sneaker 6783",
-        description: "Los productos de Gucci están hechos con materiales cuidadosamente seleccionados. Maneja con cuidado para una mayor vida útil del producto. Protege de la luz directa, el calor y la lluvia. Si se moja, sécalo inmediatamente con un paño suave.",
-        price: {
-          amount: 45699,
-          currency: "INR"
-        },
+        name: "Zapatilla 6783",
+        description: "Descripción Zapatilla 6783.",
+        price: { amount: 45699, currency: "INR" },
         image: img29,
-        inventory: {
-          available: 155,
-          sold: 17
-        }
+        inventory: { available: 155, sold: 17 }
       },
       {
-        name: "GUCCI 3DR CUB",
-        description: "En la colección de primavera-verano 2025, esta zapatilla Gucci cub3d combina materiales y construcción innovadores. La parte superior es una mezcla de Demetra y malla, con detalles creados con una técnica de alta frecuencia, mientras que la suela combina un interior relleno de EVA y TPU en el exterior, completado con un patrón de G entrelazado en 3D.",
-        price: {
-          amount: 30999,
-          currency: "INR"
-        },
+        name: "GUCCI 3DR CACHORRO",
+        description: "Descripción GUCCI 3DR CACHORRO.",
+        price: { amount: 30999, currency: "INR" },
         image: img30,
-        inventory: {
-          available: 165,
-          sold: 18
-        }
+        inventory: { available: 165, sold: 18 }
       }
     ]
   };
 
-export const translationsFrench = {
-  meta: {
-    available: 'Disponible',
-    sold: 'Vendue',
-  },
-  products: [
-    {
-      name: "Nike Dunk Bas Retro",
-      description: "Créé pour le parquet mais emmené dans les rues, le Nike Dunk Bas Retro revient avec des superpositions nettes et des couleurs d'équipe originales. Cet icône du basketball canalise les vibrations des années 80 avec un cuir premium sur le dessus qui a fière allure et se forme encore mieux. La technologie moderne de la chaussure aide à apporter le confort au XXIe siècle.",
-      price: {
-        amount: 8295,
-        currency: "INR"
+  export const translationsFrench = {
+    meta: {
+      available: 'Disponible',
+      sold: 'Venta',
+      title: 'Welcome to Shoe World!',
+      contact: {
+        name: 'Bienvenue dans le monde de la chaussure !',
       },
-      image: img1,
-      inventory: {
-        available: 100,
-        sold: 10
-      }
+      aboutContent: "Nous sommes une organisation de revente de chaussures dédiée à fournir les derniers styles à nos clients. Notre collection présente des marques populaires qui reflètent les tendances actuelles, garantissant qualité et confort dans chaque paire. Notre plateforme conviviale rend les achats faciles et agréables. Nous pensons que les chaussures sont une expression personnelle du style et nous nous efforçons de vous aider à trouver la paire parfaite qui correspond à votre individualité. Rejoignez-nous pour explorer notre sélection organisée et découvrez la différence de qualité et de service qui nous distingue.",
     },
-    {
-      name: "Nike Dunk Bas Retro SE",
-      description: "Vous pouvez toujours compter sur un classique. Le Dunk Bas Retro associe un look monochromatique avec des matériaux premium et un rembourrage moelleux pour un confort révolutionnaire qui dure. Les possibilités sont infinies : comment allez-vous porter vos Dunks ?",
-      price: {
-        amount: 10795,
-        currency: "INR"
+    products: [
+      {
+        name: "Nike Dunk Bas Retro",
+        description: "Description Nike Dunk Bas Retro.",
+        price: { amount: 8295, currency: "INR" },
+        image: img1,
+        inventory: { available: 100, sold: 10 }
       },
-      image: img2,
-      inventory: {
-        available: 200,
-        sold: 20
-      }
-    },
-    {
-      name: "Nike Dunk Bas Retro SE S2",
-      description: "Vous pouvez toujours compter sur un classique. Le Dunk Bas Retro associe un look monochromatique avec des matériaux premium et un rembourrage moelleux pour un confort révolutionnaire qui dure. Les possibilités sont infinies : comment allez-vous porter vos Dunks ?",
-      price: {
-        amount: 10795,
-        currency: "INR"
+      {
+        name: "Nike Dunk Bas Retro SE",
+        description: "Description Nike Dunk Bas Retro SE.",
+        price: { amount: 10795, currency: "INR" },
+        image: img2,
+        inventory: { available: 200, sold: 20 }
       },
-      image: img3,
-      inventory: {
-        available: 150,
-        sold: 15
-      }
-    },
-    {
-      name: "Nike Dunk Bas SE A#",
-      description: "Extrêmement polyvalent, d'une propreté frappante et oh si classique. Le Dunk Bas mélange le daim et le cuir pour une finition impeccable. Il est complet avec un col rembourré, un amorti léger et une semelle en caoutchouc. Lacez vos chaussures et apportez les vibrations de la plage avec vous.",
-      price: {
-        amount: 11899,
-        currency: "INR"
+      {
+        name: "Nike Dunk Bas Retro SE S2",
+        description: "Description Nike Dunk Bas Retro SE S2.",
+        price: { amount: 10795, currency: "INR" },
+        image: img3,
+        inventory: { available: 150, sold: 15 }
       },
-      image: img4,
-      inventory: {
-        available: 80,
-        sold: 5
-      }
-    },
-    {
-      name: "Nike SB Dunk Bas Pro",
-      description: "Un icône du basketball des années 80 revient avec des détails classiques et une touche rétro. Canaliser le style vintage dans les rues, son col bas rembourré vous permet d'emporter votre jeu confortablement partout.",
-      price: {
-        amount: 5999,
-        currency: "USD"
+      {
+        name: "Nike Dunk Bas SE A#",
+        description: "Description Nike Dunk Bas SE A#.",
+        price: { amount: 11899, currency: "INR" },
+        image: img4,
+        inventory: { available: 80, sold: 5 }
       },
-      image: img5,
-      inventory: {
-        available: 60,
-        sold: 2
-      }
-    },
-    {
-      name: "Nike Dunk Bas",
-      isSpecial: true,
-      description: "L'icône des années 80 revient avec des détails classiques et une touche rétro. Canaliser le style vintage dans les rues, son col rembourré vous permet d'emporter votre jeu partout, avec confort.",
-      price: {
-        amount: 6999,
-        currency: "INR"
+      {
+        name: "Nike SB Dunk Bas Pro",
+        description: "Description Nike SB Dunk Bas Pro.",
+        price: { amount: 5999, currency: "USD" },
+        image: img5,
+        inventory: { available: 60, sold: 2 }
       },
-      image: img6,
-      inventory: {
-        available: 90,
-        sold: 8
-      }
-    },
-    {
-      name: "Nike Dunk Bas 34",
-      description: "Reconnaissant les racines du Dunk en tant que sneaker de l'équipe universitaire de haut rang, le Pack Be True To Your School s'inspire de la campagne publicitaire originale. Les couleurs représentent les universités de premier plan, tandis que le cuir net a la quantité parfaite de brillance pour en faire un gagnant incontesté. Alors lacez-vous et montrez cet esprit universitaire. Êtes-vous prêt ?",
-      price: {
-        amount: 7999,
-        currency: "INR"
+      {
+        name: "Nike Dunk Bas",
+        isSpecial: true,
+        description: "Description Nike Dunk Bas.",
+        price: { amount: 6999, currency: "INR" },
+        image: img6,
+        inventory: { available: 90, sold: 8 }
       },
-      image: img7,
-      inventory: {
-        available: 110,
-        sold: 12
-      }
-    },
-    {
-      name: "Nike Hilander Pro Homme",
-      description: "Vous pouvez toujours compter sur un classique. Ce design à blocs de couleurs combine cuir et daim avec un rembourrage moelleux pour un confort révolutionnaire qui dure. Les possibilités sont infinies : comment allez-vous porter vos Dunks ?",
-      price: {
-        amount: 8999,
-        currency: "INR"
+      {
+        name: "Nike Dunk Bas 34",
+        description: "Description Nike Dunk Bas 34.",
+        price: { amount: 7999, currency: "INR" },
+        image: img7,
+        inventory: { available: 110, sold: 12 }
       },
-      image: img8,
-      inventory: {
-        available: 70,
-        sold: 3
-      }
-    },
-    {
-      name: "Nike Retro Premium 1980",
-      description: "Vous pouvez toujours compter sur un classique. Cette version premium du Dunk Bas associe des matériaux mixtes avec une partie supérieure entièrement noire pour un look portable et un confort qui dure. Les possibilités sont infinies : comment allez-vous porter vos Dunks ?",
-      price: {
-        amount: 9999,
-        currency: "INR"
+      {
+        name: "Nike Hilander Pro Homme",
+        description: "Description Nike Hilander Pro Homme.",
+        price: { amount: 8999, currency: "INR" },
+        image: img8,
+        inventory: { available: 70, sold: 3 }
       },
-      image: img9,
-      inventory: {
-        available: 50,
-        sold: 1
-      }
-    },
-    {
-      name: "Nike Jordans Édition Limitée",
-      description: "Vous pouvez toujours compter sur un classique. Le Dunk Bas associe son blocage de couleurs emblématique avec des matériaux premium et un rembourrage moelleux pour un confort révolutionnaire qui dure. Les possibilités sont infinies : comment allez-vous porter vos Dunks ?",
-      price: {
-        amount: 10999,
-        currency: "INR"
+      {
+        name: "Nike Retro Premium 1980",
+        description: "Description Nike Retro Premium 1980.",
+        price: { amount: 9999, currency: "INR" },
+        image: img9,
+        inventory: { available: 50, sold: 1 }
       },
-      image: img10,
-      inventory: {
-        available: 40,
-        sold: 0
-      }
-    },
-    {
-      name: "Samba OG",
-      description: "Né sur le terrain, le Samba est un icône intemporel du style urbain. Cette silhouette reste fidèle à son héritage avec une partie supérieure en cuir souple, à profil bas, des superpositions en daim et une semelle en caoutchouc, en faisant un incontournable dans le placard de tout le monde - sur et hors du terrain.",
-      price: {
-        amount: 11999,
-        currency: "INR"
+      {
+        name: "Nike Jordans Édition Limitée",
+        description: "Description Nike Jordans Édition Limitée.",
+        price: { amount: 10999, currency: "INR" },
+        image: img10,
+        inventory: { available: 40, sold: 0 }
       },
-      image: img11,
-      inventory: {
-        available: 30,
-        sold: 1
-      }
-    },
-    {
-      name: "Fair Run 4",
-      description: "Des chaussures pour le plaisir que vous avez. Ces chaussures du système Torsion d'adidas ont beaucoup de personnalité. La partie supérieure lisse offre confort et flexibilité, tandis que la doublure textile et la semelle en caoutchouc offrent le mélange parfait d'amortissement et de stabilité. Osez avec ces baskets remarquables.",
-      price: {
-        amount: 12999,
-        currency: "INR"
+      {
+        name: "Samba OG",
+        description: "Description Samba OG.",
+        price: { amount: 11999, currency: "INR" },
+        image: img11,
+        inventory: { available: 30, sold: 1 }
       },
-      image: img12,
-      inventory: {
-        available: 20,
-        sold: 0
-      }
-    },
-    {
-      name: "Vent Shoot '96",
-      description: "Ce produit est fabriqué avec 100 % de matériaux recyclés. En réutilisant des matériaux qui ont déjà été créés, nous aidons à réduire les déchets et notre dépendance aux ressources finies et à réduire l'empreinte des produits que nous fabriquons.",
-      price: {
-        amount: 799,
-        currency: "INR"
+      {
+        name: "Fair Run 4",
+        description: "Description Fair Run 4.",
+        price: { amount: 12999, currency: "INR" },
+        image: img12,
+        inventory: { available: 20, sold: 0 }
       },
-      image: img13,
-      inventory: {
-        available: 10,
-        sold: 2
-      }
-    },
-    {
-      name: "MPM 78",
-      description: "Des chaussures pour le plaisir que vous avez. Ces chaussures du système Torsion d'adidas ont beaucoup de personnalité. La partie supérieure lisse offre confort et flexibilité, tandis que la doublure textile et la semelle en caoutchouc offrent le mélange parfait d'amortissement et de stabilité. Osez avec ces baskets remarquables.",
-      price: {
-        amount: 4499,
-        currency: "INR"
+      {
+        name: "Vent Shoot '96",
+        description: "Description Vent Shoot '96.",
+        price: { amount: 799, currency: "INR" },
+        image: img13,
+        inventory: { available: 10, sold: 2 }
       },
-      image: img14,
-      inventory: {
-        available: 5,
-        sold: 0
-      }
-    },
-    {
-      name: "Asturned Run",
-      description: "Gardez-le propre - peu importe à quel point vous aimez notre produit, n'utilisez pas de mots que vous n'utiliseriez pas avec votre grand-mère. Concentrez-vous sur le produit - si vous avez un problème non lié au produit lui-même (par exemple, le temps de livraison, le prix), veuillez diriger cela vers notre équipe de service client pour vous assurer qu'ils peuvent vous aider.",
-      price: {
-        amount: 4040,
-        currency: "INR"
+      {
+        name: "MPM 78",
+        description: "Description MPM 78.",
+        price: { amount: 4499, currency: "INR" },
+        image: img14,
+        inventory: { available: 5, sold: 0 }
       },
-      image: img15,
-      inventory: {
-        available: 15,
-        sold: 3
-      }
-    },
-    {
-      name: "Grand Court",
-      description: "Fabriqué avec une série de matériaux recyclés, cette partie supérieure contient au moins 50 % de contenu recyclé.",
-      price: {
-        amount: 16999,
-        currency: "INR"
+      {
+        name: "Asturned Run",
+        description: "Description Asturned Run.",
+        price: { amount: 4040, currency: "INR" },
+        image: img15,
+        inventory: { available: 15, sold: 3 }
       },
-      image: img16,
-      inventory: {
-        available: 25,
-        sold: 4
-      }
-    },
-    {
-      name: "ULTRA BOOST 1.0",
-      description: "D'une promenade au parc à une course de week-end avec des amis, ces chaussures adidas Ultraboost 1.0 sont conçues pour vous garder à l'aise. Une partie supérieure adidas PRIMEKNIT étreint doucement vos pieds tandis que BOOST dans la semelle intermédiaire amortit depuis le premier pas jusqu'à la dernière mile.",
-      price: {
-        amount: 9999,
-        currency: "INR"
+      {
+        name: "Grand Court",
+        description: "Description Grand Court.",
+        price: { amount: 16999, currency: "INR" },
+        image: img16,
+        inventory: { available: 25, sold: 4 }
       },
-      image: img17,
-      inventory: {
-        available: 35,
-        sold: 5
-      }
-    },
-    {
-      name: "Cloud Foam 18 Retro",
-      description: "Votre option préférée lors des jours chargés. Ces baskets adidas sont élégantes et stylées, s'associant facilement avec tout, des vêtements de sport aux jeans. La partie supérieure légère est doublée pour le confort tandis que l'amortissement Cloudfoam vous garde en mouvement confortablement.",
-      price: {
-        amount: 5555,
-        currency: "INR"
+      {
+        name: "ULTRA BOOST 1.0",
+        description: "Description ULTRA BOOST 1.0.",
+        price: { amount: 9999, currency: "INR" },
+        image: img17,
+        inventory: { available: 35, sold: 5 }
       },
-      image: img18,
-      inventory: {
-        available: 45,
-        sold: 6
-      }
-    },
-    {
-      name: "DECODE ME",
-      description: "Enfilez ces chaussures de l'équipe Mercedes - AMG Petronas de Formule 1 d'adidas pour emporter votre passion pour la course avec vous où que vous alliez. Un mélange de daim et de nylon donne à la partie supérieure une texture et un style uniques qui sont conçus pour durer. Les 3 Rayures sur la partie supérieure dans les couleurs de l'équipe et un logo de l'équipe sur l'étiquette du talon gardent le look officiel.",
-      price: {
-        amount: 6666,
-        currency: "INR"
+      {
+        name: "Cloud Foam 18 Retro",
+        description: "Description Cloud Foam 18 Retro.",
+        price: { amount: 5555, currency: "INR" },
+        image: img18,
+        inventory: { available: 45, sold: 6 }
       },
-      image: img19,
-      inventory: {
-        available: 55,
-        sold: 7
-      }
-    },
-    {
-      name: "Switch Run Cyan",
-      description: "Mélangeant style et détails sans distraction, la dernière gamme de basiques de course d'adidas vous fera paraître aussi bien que vous vous sentez pendant que vous parcourez les kilomètres. Ainsi, vous pouvez vous concentrer sur ce qui compte le plus : vous amuser en marchant.",
-      price: {
-        amount: 20999,
-        currency: "INR"
+      {
+        name: "DECODE ME",
+        description: "Description DECODE ME.",
+        price: { amount: 6666, currency: "INR" },
+        image: img19,
+        inventory: { available: 55, sold: 7 }
       },
-      image: img20,
-      inventory: {
-        available: 65,
-        sold: 8
-      }
-    },
-    {
-      name: "Eazy Beleciaga",
-      isSpecial: true,
-      description: "Balenciaga décline toute responsabilité en cas de non-respect par le consommateur des instructions de soin et de manipulation énoncées ci-dessus ou de tout usage inapproprié. Veuillez contacter le service client de Balenciaga pour toute information ou assistance supplémentaire.",
-      price: {
-        amount: 81999,
-        currency: "INR"
+      {
+        name: "Switch Run Cyan",
+        description: "Description Switch Run Cyan.",
+        price: { amount: 20999, currency: "INR" },
+        image: img20,
+        inventory: { available: 65, sold: 8 }
       },
-      image: img21,
-      inventory: {
-        available: 75,
-        sold: 9
-      }
-    },
-    {
-      name: "Produit 22",
-      isSpecial: true,
-      description: "Retours et échanges gratuits dans les 30 jours suivant la date de livraison. Vous pouvez échanger votre article uniquement pour une taille ou une couleur différente. Des exclusions de produits s'appliquent. Pour plus d'informations.",
-      price: {
-        amount: 92999,
-        currency: "INR"
+      {
+        name: "Eazy Beleciaga",
+        isSpecial: true,
+        description: "Description Eazy Beleciaga.",
+        price: { amount: 81999, currency: "INR" },
+        image: img21,
+        inventory: { available: 75, sold: 9 }
       },
-      image: img22,
-      inventory: {
-        available: 85,
-        sold: 10
-      }
-    },
-    {
-      name: "GUCCI B3D",
-      description: "Dans la collection printemps-été 2025, cette sneaker Gucci cub3d mélange des matériaux et une construction innovants. La partie supérieure est un mélange de Demetra et de maille, avec des détails créés avec une technique de haute fréquence, tandis que la semelle combine un intérieur rempli d'EVA et du TPU à l'extérieur, complété par un motif de G entrelacé en 3D.",
-      price: {
-        amount: 23999,
-        currency: "INR"
+      {
+        name: "Produit 22",
+        isSpecial: true,
+        description: "Description Produit 22.",
+        price: { amount: 92999, currency: "INR" },
+        image: img22,
+        inventory: { available: 85, sold: 10 }
       },
-      image: img23,
-      inventory: {
-        available: 95,
-        sold: 11
-      }
-    },
-    {
-      name: "Becca Hommes 6253BA",
-      description: "Suspension forte pour réduire l'impact. Patch de suspension uni-corps ; meilleure adhérence avec un excellent élan vers l'avant avec une prise solide, vous n'avez pas à vous soucier de l'abrasion.",
-      price: {
-        amount: 10000,
-        currency: "INR"
+      {
+        name: "GUCCI B3D",
+        description: "Description GUCCI B3D.",
+        price: { amount: 23999, currency: "INR" },
+        image: img23,
+        inventory: { available: 95, sold: 11 }
       },
-      image: img24,
-      inventory: {
-        available: 105,
-        sold: 12
-      }
-    },
-    {
-      name: "Dominator C.10",
-      description: "Léger et respirant : ces chaussures de course pour hommes sont conçues avec des matériaux durables et une technologie de laçage facile à porter, ce qui les rend idéales pour le jogging, la marche et le sport. Le tissu supérieur respirant et la semelle Phylon légère assurent du confort lors de la course.",
-      price: {
-        amount: 7990,
-        currency: "INR"
+      {
+        name: "Becca Hommes 6253BA",
+        description: "Description Becca Hommes 6253BA.",
+        price: { amount: 10000, currency: "INR" },
+        image: img24,
+        inventory: { available: 105, sold: 12 }
       },
-      image: img25,
-      inventory: {
-        available: 115,
-        sold: 13
-      }
-    },
-    {
-      name: "CEMENTIVE HOMMES",
-      description: "Semelle en mousse à mémoire pour fournir plus d'amortissement et de confort.",
-      price: {
-        amount: 8001,
-        currency: "INR"
+      {
+        name: "Dominator C.10",
+        description: "Description Dominator C.10.",
+        price: { amount: 7990, currency: "INR" },
+        image: img25,
+        inventory: { available: 115, sold: 13 }
       },
-      image: img26,
-      inventory: {
-        available: 125,
-        sold: 14
-      }
-    },
-    {
-      name: "Red Chiesf Genune ATAG",
-      description: "FACILE À ASSORTIR - Ces chaussures pour hommes ont un design classique de combinaison de couleurs, facile à assortir avec des vêtements. Vous pouvez porter ces chaussures avec des jeans, des pantalons décontractés, des pantalons courts et des shorts. Parfait pour toutes les occasions.",
-      price: {
-        amount: 2799,
-        currency: "INR"
+      {
+        name: "CEMENTIVE HOMMES",
+        description: "Description CEMENTIVE HOMMES.",
+        price: { amount: 8001, currency: "INR" },
+        image: img26,
+        inventory: { available: 125, sold: 14 }
       },
-      image: img27,
-      inventory: {
-        available: 135,
-        sold: 15
-      }
-    },
-    {
-      name: "Criterian Hommes 28",
-      description: "Confort : la construction Derby flexible vous donne la liberté de vous déplacer confortablement. Semelle en mousse légèrement rembourrée pour le confort et l'absorption des chocs.",
-      price: {
-        amount: 28966,
-        currency: "INR"
+      {
+        name: "Red Chiesf Genune ATAG",
+        description: "Description Red Chiesf Genune ATAG.",
+        price: { amount: 2799, currency: "INR" },
+        image: img27,
+        inventory: { available: 135, sold: 15 }
       },
-      image: img28,
-      inventory: {
-        available: 145,
-        sold: 16
-      }
-    },
-    {
-      name: "Sneaker 6783",
-      description: "Les produits Gucci sont fabriqués avec des matériaux soigneusement sélectionnés. Manipulez avec soin pour prolonger la durée de vie du produit. Protéger de la lumière directe, de la chaleur et de la pluie. S'il devient humide, séchez-le immédiatement avec un chiffon doux.",
-      price: {
-        amount: 45699,
-        currency: "INR"
+      {
+        name: "Criterian Hommes 28",
+        description: "Description Criterian Hommes 28.",
+        price: { amount: 28966, currency: "INR" },
+        image: img28,
+        inventory: { available: 145, sold: 16 }
       },
-      image: img29,
-      inventory: {
-        available: 155,
-        sold: 17
-      }
-    },
-    {
-      name: "GUCCI 3DR CUB",
-      description: "Dans la collection printemps-été 2025, cette sneaker Gucci cub3d mélange des matériaux et une construction innovants. La partie supérieure est un mélange de Demetra et de maille, avec des détails créés avec une technique de haute fréquence, tandis que la semelle combine un intérieur rempli d'EVA et du TPU à l'extérieur, complété par un motif de G entrelacé en 3D.",
-      price: {
-        amount: 30999,
-        currency: "INR"
+      {
+        name: "Sneaker 6783",
+        description: "Description Sneaker 6783.",
+        price: { amount: 45699, currency: "INR" },
+        image: img29,
+        inventory: { available: 155, sold: 17 }
       },
-      image: img30,
-      inventory: {
-        available: 165,
-        sold: 18
+      {
+        name: "GUCCI 3DR CUB",
+        description: "Description GUCCI 3DR CUB.",
+        price: { amount: 30999, currency: "INR" },
+        image: img30,
+        inventory: { available: 165, sold: 18 }
       }
-    }
-  ]
-};
+    ]
+  };
 
 export const translationsGerman = {
   meta: {
     available: 'Verfügbar',
     sold: 'verkauft',
+    title: 'Willkommen in der Schuhwelt!',
+    contact: {
+      name: 'Melden Sie sich bei uns und sagen Sie Hallo!',
+    },
+    aboutContent: "Wir sind eine engagierte Organisation für den Wiederverkauf von Schuhen, die sich darauf konzentriert, unseren Kunden die neuesten Styles anzubieten. Unsere Kollektion umfasst beliebte Marken, die aktuelle Trends widerspiegeln und Qualität und Komfort bei jedem Paar gewährleisten. Unsere benutzerfreundliche Plattform macht das Einkaufen einfach und angenehm. Wir glauben, dass Schuhe ein persönlicher Ausdruck von Stil sind, und wir möchten Ihnen dabei helfen, das perfekte Paar zu finden, das zu Ihrer Individualität passt. Entdecken Sie mit uns unsere kuratierte Auswahl und erleben Sie den Unterschied in Qualität und Service, der uns auszeichnet.",
   },
   products: [
     {
       name: "Nike Dunk Niedrig Retro",
-      description: "Für das Parkett geschaffen, aber auf die Straßen gebracht, kehrt der Nike Dunk Niedrig Retro mit klaren Überlagerungen und originalen Teamfarben zurück. Dieses Basketball-Icon kanalisiert die Vibes der 80er mit hochwertigem Leder im Obermaterial, das gut aussieht und sich noch besser einläuft. Moderne Schuhtechnologie hilft, den Komfort ins 21. Jahrhundert zu bringen.",
-      price: {
-        amount: 8295,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig Retro.",
+      price: { amount: 8295, currency: "INR" },
       image: img1,
-      inventory: {
-        available: 100,
-        sold: 10
-      }
+      inventory: { available: 100, sold: 10 }
     },
     {
       name: "Nike Dunk Niedrig Retro SE",
-      description: "Auf einen Klassiker kann man immer zählen. Der Dunk Niedrig Retro kombiniert einen monochromatischen Look mit hochwertigen Materialien und weicher Polsterung für einen komfortablen Sitz, der das Spiel verändert. Die Möglichkeiten sind endlos – wie wirst du deine Dunks tragen?",
-      price: {
-        amount: 10795,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig Retro SE.",
+      price: { amount: 10795, currency: "INR" },
       image: img2,
-      inventory: {
-        available: 200,
-        sold: 20
-      }
+      inventory: { available: 200, sold: 20 }
     },
     {
       name: "Nike Dunk Niedrig Retro SE S2",
-      description: "Auf einen Klassiker kann man immer zählen. Der Dunk Niedrig Retro kombiniert einen monochromatischen Look mit hochwertigen Materialien und weicher Polsterung für einen komfortablen Sitz, der das Spiel verändert. Die Möglichkeiten sind endlos – wie wirst du deine Dunks tragen?",
-      price: {
-        amount: 10795,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig Retro SE S2.",
+      price: { amount: 10795, currency: "INR" },
       image: img3,
-      inventory: {
-        available: 150,
-        sold: 15
-      }
+      inventory: { available: 150, sold: 15 }
     },
     {
       name: "Nike Dunk Niedrig SE A#",
-      description: "Extrem vielseitig, auffallend sauber und oh-so klassisch. Der Dunk Niedrig mischt Wildleder und Leder für ein makelloses Finish. Er kommt mit einem gepolsterten Kragen, leichtem Dämpfungsmaterial und einer Gummisohle. Schnür dich an und bring die Strandvibes mit dir.",
-      price: {
-        amount: 11899,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig SE A#.",
+      price: { amount: 11899, currency: "INR" },
       image: img4,
-      inventory: {
-        available: 80,
-        sold: 5
-      }
+      inventory: { available: 80, sold: 5 }
     },
     {
       name: "Nike SB Dunk Niedrig Pro",
-      description: "Ein Basketball-Icon der 80er kehrt mit klassischen Details und nostalgischem Flair zurück. Der Vintage-Stil wird zurück auf die Straßen gebracht, sein gepolsterter, niedriger Kragen lässt dich dein Spiel überall bequem spielen.",
-      price: {
-        amount: 5999,
-        currency: "USD"
-      },
+      description: "Beschreibung Nike SB Dunk Niedrig Pro.",
+      price: { amount: 5999, currency: "USD" },
       image: img5,
-      inventory: {
-        available: 60,
-        sold: 2
-      }
+      inventory: { available: 60, sold: 2 }
     },
     {
       name: "Nike Dunk Niedrig",
-      isSpecial: true,
-      description: "Das Icon der 80er kehrt mit klassischen Details und nostalgischem Flair zurück. Der Vintage-Stil wird zurück auf die Straßen gebracht, sein gepolsterter Kragen lässt dich dein Spiel überall bequem spielen.",
-      price: {
-        amount: 6999,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig.",
+      price: { amount: 6999, currency: "INR" },
       image: img6,
-      inventory: {
-        available: 90,
-        sold: 8
-      }
+      inventory: { available: 90, sold: 8 }
     },
     {
       name: "Nike Dunk Niedrig 34",
-      description: "Die Wurzeln des Dunks als Sneaker der besten Universitätsmannschaft werden anerkannt, das Be True To Your School Pack orientiert sich an der ursprünglichen Werbekampagne. Farben repräsentieren Spitzenuniversitäten, während das klare Leder den perfekten Glanz hat, um sie zu einem sicheren Gewinn zu machen. Also schnür dich an und zeig diesen Universitätsgeist. Bist du bereit?",
-      price: {
-        amount: 7999,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Dunk Niedrig 34.",
+      price: { amount: 7999, currency: "INR" },
       image: img7,
-      inventory: {
-        available: 110,
-        sold: 12
-      }
+      inventory: { available: 110, sold: 12 }
     },
     {
       name: "Nike Hilander Pro Mann",
-      description: "Auf einen Klassiker kann man immer zählen. Dieses farblich blockierte Design kombiniert Leder und Wildleder mit weicher Polsterung für einen komfortablen Sitz, der das Spiel verändert. Die Möglichkeiten sind endlos – wie wirst du deine Dunks tragen?",
-      price: {
-        amount: 8999,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Hilander Pro Mann.",
+      price: { amount: 8999, currency: "INR" },
       image: img8,
-      inventory: {
-        available: 70,
-        sold: 3
-      }
+      inventory: { available: 70, sold: 3 }
     },
     {
       name: "Nike Retro Premium 1980",
-      description: "Auf einen Klassiker kann man immer zählen. Diese Premium-Version des Dunk Niedrig kombiniert gemischte Materialien mit einem komplett schwarzen Obermaterial für einen tragbaren Look und Komfort, der anhält. Die Möglichkeiten sind endlos – wie wirst du deine Dunks tragen?",
-      price: {
-        amount: 9999,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Retro Premium 1980.",
+      price: { amount: 9999, currency: "INR" },
       image: img9,
-      inventory: {
-        available: 50,
-        sold: 1
-      }
+      inventory: { available: 50, sold: 1 }
     },
     {
       name: "Nike Jordans Limitierte Edition",
-      description: "Auf einen Klassiker kann man immer zählen. Der Dunk Niedrig kombiniert sein ikonisches Farbblockdesign mit hochwertigen Materialien und weicher Polsterung für einen komfortablen Sitz, der das Spiel verändert. Die Möglichkeiten sind endlos – wie wirst du deine Dunks tragen?",
-      price: {
-        amount: 10999,
-        currency: "INR"
-      },
+      description: "Beschreibung Nike Jordans Limitierte Edition.",
+      price: { amount: 10999, currency: "INR" },
       image: img10,
-      inventory: {
-        available: 40,
-        sold: 0
-      }
+      inventory: { available: 40, sold: 0 }
     },
     {
       name: "Samba OG",
-      description: "Geboren auf dem Platz, ist die Samba ein zeitloses Icon des Streetstyles. Diese Silhouette bleibt ihrem Erbe treu mit einem geschmackvollen, niedrig-profilierten, weichen Lederoberteil, Wildlederüberlagerungen und einer Gummisohle, was sie zu einem Grundpfeiler in jedem Kleiderschrank macht – auf und abseits des Platzes.",
-      price: {
-        amount: 11999,
-        currency: "INR"
-      },
+      description: "Beschreibung Samba OG.",
+      price: { amount: 11999, currency: "INR" },
       image: img11,
-      inventory: {
-        available: 30,
-        sold: 1
-      }
+      inventory: { available: 30, sold: 1 }
     },
     {
       name: "Fair Run 4",
-      description: "Schuhe für den Spaß, den du hast. Diese adidas Torsion-System-Schuhe haben viel Persönlichkeit. Das glatte Obermaterial bietet Komfort und Flexibilität, während das textile Futter und die Gummisohle die perfekte Mischung aus Dämpfung und Stabilität bieten. Wage es in diesen herausragenden Sneakers.",
-      price: {
-        amount: 12999,
-        currency: "INR"
-      },
+      description: "Beschreibung Fair Run 4.",
+      price: { amount: 12999, currency: "INR" },
       image: img12,
-      inventory: {
-        available: 20,
-        sold: 0
-      }
+      inventory: { available: 20, sold: 0 }
     },
     {
       name: "Vent Shoot '96",
-      description: "Dieses Produkt besteht aus 100 % recycelten Materialien. Durch die Wiederverwendung von Materialien, die bereits erstellt wurden, helfen wir, Abfall und unsere Abhängigkeit von endlichen Ressourcen zu reduzieren und den Fußabdruck der Produkte, die wir herstellen, zu verringern.",
-      price: {
-        amount: 799,
-        currency: "INR"
-      },
+      description: "Beschreibung Vent Shoot '96.",
+      price: { amount: 799, currency: "INR" },
       image: img13,
-      inventory: {
-        available: 10,
-        sold: 2
-      }
+      inventory: { available: 10, sold: 2 }
     },
     {
       name: "MPM 78",
-      description: "Schuhe für den Spaß, den du hast. Diese adidas Torsion-System-Schuhe haben viel Persönlichkeit. Das glatte Obermaterial bietet Komfort und Flexibilität, während das textile Futter und die Gummisohle die perfekte Mischung aus Dämpfung und Stabilität bieten. Wage es in diesen herausragenden Sneakers.",
-      price: {
-        amount: 4499,
-        currency: "INR"
-      },
+      description: "Beschreibung MPM 78.",
+      price: { amount: 4499, currency: "INR" },
       image: img14,
-      inventory: {
-        available: 5,
-        sold: 0
-      }
+      inventory: { available: 5, sold: 0 }
     },
     {
       name: "Asturned Run",
-      description: "Halte es sauber – egal wie sehr du unser Produkt liebst, benutze keine Worte, die du nicht mit deiner Großmutter verwenden würdest. Konzentriere dich auf das Produkt – wenn du ein Problem hast, das nicht mit dem Produkt selbst zu tun hat (z.B. Lieferzeit, Preis), wende dich bitte an unser Kundenserviceteam, um sicherzustellen, dass sie dir helfen können.",
-      price: {
-        amount: 4040,
-        currency: "INR"
-      },
+      description: "Beschreibung Asturned Run.",
+      price: { amount: 4040, currency: "INR" },
       image: img15,
-      inventory: {
-        available: 15,
-        sold: 3
-      }
+      inventory: { available: 15, sold: 3 }
     },
     {
       name: "Grand Court",
-      description: "Hergestellt aus einer Reihe von recycelten Materialien, enthält dieses Obermaterial mindestens 50 % recycelten Inhalt.",
-      price: {
-        amount: 16999,
-        currency: "INR"
-      },
+      description: "Beschreibung Grand Court.",
+      price: { amount: 16999, currency: "INR" },
       image: img16,
-      inventory: {
-        available: 25,
-        sold: 4
-      }
+      inventory: { available: 25, sold: 4 }
     },
     {
       name: "ULTRA BOOST 1.0",
-      description: "Von einem Spaziergang im Park bis zu einem Wochenendlauf mit Freunden sind diese adidas Ultraboost 1.0-Schuhe so konzipiert, dass sie dich bequem halten. Ein adidas PRIMEKNIT-Obermaterial umschließt sanft deine Füße, während BOOST in der Zwischensohle vom ersten Schritt bis zur letzten Meile dämpft.",
-      price: {
-        amount: 9999,
-        currency: "INR"
-      },
+      description: "Beschreibung ULTRA BOOST 1.0.",
+      price: { amount: 9999, currency: "INR" },
       image: img17,
-      inventory: {
-        available: 35,
-        sold: 5
-      }
+      inventory: { available: 35, sold: 5 }
     },
     {
       name: "Cloud Foam 18 Retro",
-      description: "Deine bevorzugte Option an geschäftigen Tagen. Diese adidas Sneakers sind schlank und stylisch und lassen sich leicht mit allem kombinieren, von Sportbekleidung bis zu Jeans. Das leichte Obermaterial ist gefüttert für Komfort, während die Cloudfoam-Dämpfung dich bequem in Bewegung hält.",
-      price: {
-        amount: 5555,
-        currency: "INR"
-      },
+      description: "Beschreibung Cloud Foam 18 Retro.",
+      price: { amount: 5555, currency: "INR" },
       image: img18,
-      inventory: {
-        available: 45,
-        sold: 6
-      }
+      inventory: { available: 45, sold: 6 }
     },
     {
       name: "DECODE ME",
-      description: "Schlüpfe in diese Schuhe des Mercedes - AMG Petronas Formel 1 Teams von adidas, um deine Rennleidenschaft überallhin mitzunehmen. Eine Mischung aus Wildleder und Nylon verleiht dem Obermaterial eine einzigartige Textur und einen Stil, der für die Ewigkeit gemacht ist. Die 3-Streifen auf dem Obermaterial in Teamfarben und ein Teamlogo auf der Fersenschlaufe halten den Look offiziell.",
-      price: {
-        amount: 6666,
-        currency: "INR"
-      },
+      description: "Beschreibung DECODE ME.",
+      price: { amount: 6666, currency: "INR" },
       image: img19,
-      inventory: {
-        available: 55,
-        sold: 7
-      }
+      inventory: { available: 55, sold: 7 }
     },
     {
       name: "Switch Run Cyan",
-      description: "Stil mit ablenkungsfreien Details kombinieren, die neueste Reihe von adidas-Laufschuhen lässt dich so gut aussehen, wie du dich fühlst, während du die Kilometer zurücklegst. So kannst du dich auf das Wesentliche konzentrieren: Spaß beim Laufen.",
-      price: {
-        amount: 20999,
-        currency: "INR"
-      },
+      description: "Beschreibung Switch Run Cyan.",
+      price: { amount: 20999, currency: "INR" },
       image: img20,
-      inventory: {
-        available: 65,
-        sold: 8
-      }
+      inventory: { available: 65, sold: 8 }
     },
     {
       name: "Eazy Beleciaga",
-      isSpecial: true,
-      description: "Balenciaga lehnt jegliche Haftung ab, falls der Verbraucher die oben genannten Pflege- und Handhabungsanweisungen nicht befolgt oder unsachgemäße Verwendung. Bitte kontaktiere den Kundenservice von Balenciaga für weitere Informationen oder Unterstützung.",
-      price: {
-        amount: 81999,
-        currency: "INR"
-      },
+      description: "Beschreibung Eazy Beleciaga.",
+      price: { amount: 81999, currency: "INR" },
       image: img21,
-      inventory: {
-        available: 75,
-        sold: 9
-      }
+      inventory: { available: 75, sold: 9 }
     },
     {
       name: "Produkt 22",
-      isSpecial: true,
-      description: "Kostenlose Rücksendungen und Umtausch innerhalb von 30 Tagen nach dem Lieferdatum. Du kannst deinen Artikel nur gegen eine andere Größe oder Farbe umtauschen. Produktbeschränkungen gelten. Für weitere Informationen.",
-      price: {
-        amount: 92999,
-        currency: "INR"
-      },
+      description: "Beschreibung Produkt 22.",
+      price: { amount: 92999, currency: "INR" },
       image: img22,
-      inventory: {
-        available: 85,
-        sold: 10
-      }
+      inventory: { available: 85, sold: 10 }
     },
     {
       name: "GUCCI B3D",
-      description: "In der Kollektion Frühjahr/Sommer 2025 verbindet dieser Gucci cub3d Sneaker innovative Materialien und Konstruktionen. Das Obermaterial ist eine Mischung aus Demetra und Mesh, mit Details, die mit einer Hochfrequenztechnik erstellt wurden, während die Sohle ein EVA-gefülltes Innere und TPU auf der Außenseite kombiniert, ergänzt durch ein 3D-verschlungenes G-Muster.",
-      price: {
-        amount: 23999,
-        currency: "INR"
-      },
+      description: "Beschreibung GUCCI B3D.",
+      price: { amount: 23999, currency: "INR" },
       image: img23,
-      inventory: {
-        available: 95,
-        sold: 11
-      }
+      inventory: { available: 95, sold: 11 }
     },
     {
       name: "Becca Herren 6253BA",
-      description: "Starke Federung zur Reduzierung von Stößen. Uni-Body-Federungsausgleichs-Patch.; Stärkerer Grip mit hervorragendem Vorwärtsmomentum und solidem Grip, du musst dir keine Sorgen um Abrieb machen.",
-      price: {
-        amount: 10000,
-        currency: "INR"
-      },
+      description: "Beschreibung Becca Herren 6253BA.",
+      price: { amount: 10000, currency: "INR" },
       image: img24,
-      inventory: {
-        available: 105,
-        sold: 12
-      }
+      inventory: { available: 105, sold: 12 }
     },
     {
       name: "Dominator C.10",
-      description: "Leicht und atmungsaktiv: Diese Laufschuhe für Männer sind mit strapazierfähigen Materialien und einer einfach zu tragenden Schnürtechnologie ausgestattet, die sie ideal zum Joggen, Gehen und für Sportarten macht. Das atmungsaktive Obermaterial und die leichte Phylon-Außensohle sorgen für Komfort beim Laufen.",
-      price: {
-        amount: 7990,
-        currency: "INR"
-      },
+      description: "Beschreibung Dominator C.10.",
+      price: { amount: 7990, currency: "INR" },
       image: img25,
-      inventory: {
-        available: 115,
-        sold: 13
-      }
+      inventory: { available: 115, sold: 13 }
     },
     {
       name: "CEMENTIVE HERREN",
-      description: "Memory-Schaum-Einlegesohle für mehr Dämpfung und Komfort.",
-      price: {
-        amount: 8001,
-        currency: "INR"
-      },
+      description: "Beschreibung CEMENTIVE HERREN.",
+      price: { amount: 8001, currency: "INR" },
       image: img26,
-      inventory: {
-        available: 125,
-        sold: 14
-      }
+      inventory: { available: 125, sold: 14 }
     },
     {
       name: "Red Chiesf Genune ATAG",
-      description: "EINFACH ZU KOMBINIERNEN - Diese Schuhe für Männer haben ein klassisches Farbmuster, das leicht mit Kleidung kombiniert werden kann. Du kannst diese Schuhe mit Jeans, lässigen Hosen, kurzen Hosen und Shorts tragen. Perfekt für jeden Anlass.",
-      price: {
-        amount: 2799,
-        currency: "INR"
-      },
+      description: "Beschreibung Red Chiesf Genune ATAG.",
+      price: { amount: 2799, currency: "INR" },
       image: img27,
-      inventory: {
-        available: 135,
-        sold: 15
-      }
+      inventory: { available: 135, sold: 15 }
     },
     {
       name: "Criterian Herren 28",
-      description: "Komfort: Flexible Derby-Konstruktion gibt dir die Freiheit, dich bequem zu bewegen. Leicht gepolsterte Schaum-Einlegesohle für Komfort und Stoßdämpfung.",
-      price: {
-        amount: 28966,
-        currency: "INR"
-      },
+      description: "Beschreibung Criterian Herren 28.",
+      price: { amount: 28966, currency: "INR" },
       image: img28,
-      inventory: {
-        available: 145,
-        sold: 16
-      }
+      inventory: { available: 145, sold: 16 }
     },
     {
       name: "Sneaker 6783",
-      description: "Gucci-Produkte werden aus sorgfältig ausgewählten Materialien hergestellt. Bitte mit Sorgfalt behandeln, um die Lebensdauer des Produkts zu verlängern. Vor direkter Sonneneinstrahlung, Wärme und Regen schützen. Sollte es nass werden, sofort mit einem weichen Tuch trocknen.",
-      price: {
-        amount: 45699,
-        currency: "INR"
-      },
+      description: "Beschreibung Sneaker 6783.",
+      price: { amount: 45699, currency: "INR" },
       image: img29,
-      inventory: {
-        available: 155,
-        sold: 17
-      }
+      inventory: { available: 155, sold: 17 }
     },
     {
       name: "GUCCI 3DR CUB",
-      description: "In der Kollektion Frühjahr/Sommer 2025 verbindet dieser Gucci cub3d Sneaker innovative Materialien und Konstruktionen. Das Obermaterial ist eine Mischung aus Demetra und Mesh, mit Details, die mit einer Hochfrequenztechnik erstellt wurden, während die Sohle ein EVA-gefülltes Innere und TPU auf der Außenseite kombiniert, ergänzt durch ein 3D-verschlungenes G-Muster.",
-      price: {
-        amount: 30999,
-        currency: "INR"
-      },
+      description: "Beschreibung GUCCI 3DR CUB.",
+      price: { amount: 30999, currency: "INR" },
       image: img30,
-      inventory: {
-        available: 165,
-        sold: 18
-      }
+      inventory: { available: 165, sold: 18 }
     }
   ]
 };
 
   export const translationsChinese = {
-    meta:{
+    meta: {
       available: "可用的",
       sold: '销售',
+      title: '欢迎来到鞋世界',
+      contact:{
+        name:'伸出手来使用并打招呼！',
+      },
+      aboutContent: "我们是一家专门的鞋类转售组织，致力于为客户提供最新款式。我们的系列包含反映当前趋势的流行品牌，确保每双鞋的质量和舒适度。我们用户友好的平台让购物变得轻松愉快。我们相信鞋履是个人风格的体现，我们努力帮助您找到适合您个性的完美一双。与我们一起探索我们精选的产品，体验使我们与众不同的质量和服务差异。",
     },
     products: [
       {
@@ -1777,7 +1250,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "耐克Hilander专业男款",
+        name: "耐克希兰德专业男款",
         description: "你总是可以依靠经典。这种色块设计结合了皮革和绒面革，配有柔软的衬垫，提供持久的舒适。可能性无穷无尽——你会如何穿着你的鞋子？",
         price: {
           amount: 8999,
@@ -1868,7 +1341,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Asturned Run",
+        name: "转身奔跑",
         description: "保持干净 - 无论你多么喜欢我们的产品，都不要使用你不会对祖母使用的任何词语。专注于产品 - 如果你有与产品本身无关的问题（例如交货时间、价格），请将其直接告知我们的客户服务团队，以确保他们能够帮助你。",
         price: {
           amount: 4040,
@@ -1894,8 +1367,8 @@ export const translationsGerman = {
         }
       },
       {
-        name: "超BOOST 1.0",
-        description: "从公园散步到与朋友的周末跑步，这些阿迪达斯Ultraboost 1.0鞋子旨在让你保持舒适。阿迪达斯PRIMEKNIT上部轻柔地贴合你的双脚，而BOOST中底从第一步到最后一公里都提供缓冲。",
+        name: "超转化奔跑",
+        description: "从公园散步到与朋友的周末跑步，这些阿迪达斯Ultra转化奔跑鞋子旨在让你保持舒适。阿迪达斯PRIMEKNIT上部轻柔地贴合你的双脚，而BOOST中底从第一步到最后一公里都提供缓冲。",
         price: {
           amount: 9999,
           currency: "INR"
@@ -1946,7 +1419,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Eazy Beleciaga",
+        name: "巴黎世家",
         isSpecial: true,
         description: "Balenciaga在消费者不遵守上述护理和处理说明或任何不当使用的情况下不承担任何责任。请联系Balenciaga客户服务以获取更多信息或帮助。",
         price: {
@@ -1987,7 +1460,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Becca男款6253BA",
+        name: "贝卡男款6253贝卡",
         description: "强力悬挂以减少冲击，单体悬挂平衡补丁；更强的抓地力，优秀的前进动力和坚固的抓地力，让你不必担心磨损。",
         price: {
           amount: 10000,
@@ -2000,7 +1473,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Dominator C.10",
+        name: "统治者 1,0",
         description: "轻便透气：这些男士跑步鞋采用耐用材料和易穿的系带技术设计，非常适合慢跑、步行和运动。透气的上部面料和轻量的Phylon外底确保跑步的舒适性。",
         price: {
           amount: 7990,
@@ -2013,7 +1486,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE男款",
+        name: "水泥男款",
         description: "记忆泡沫鞋垫提供更多缓冲和舒适。",
         price: {
           amount: 8001,
@@ -2026,7 +1499,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Red Chiesf Genune ATAG",
+        name: "红酋长正版",
         description: "易于搭配 - 这款男士鞋具有经典的配色设计，易于搭配服装。你可以将这双鞋与牛仔裤、休闲裤、短裤等搭配，适合任何场合。",
         price: {
           amount: 2799,
@@ -2039,7 +1512,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Criterian男款28",
+        name: "标准男款28",
         description: "舒适：灵活的德比结构让你自由舒适地移动。轻微衬垫的泡沫鞋垫提供舒适感和减震效果。",
         price: {
           amount: 28966,
@@ -2052,7 +1525,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Sneaker 6783",
+        name: "运动鞋6783",
         description: "古驰产品采用精心挑选的材料制成。请小心处理，以延长产品的使用寿命。防止直接光照、热量和雨水。如果变湿，请立即用软布擦干。",
         price: {
           amount: 45699,
@@ -2068,9 +1541,14 @@ export const translationsGerman = {
   };
 
   export const translationsArabic = {
-    meta:{
+    meta: {
       available: "متاح",
       sold: 'مُباع',
+      title: 'مرحبا بكم في عالم الأحذية!',
+      contact:{
+        name:'تواصل معنا للاستخدام وقل مرحبًا!',
+      },
+      aboutContent: "نحن مؤسسة متخصصة في إعادة بيع الأحذية تركز على توفير أحدث الأساليب لعملائنا. تتميز مجموعتنا بعلامات تجارية شهيرة تعكس الاتجاهات الحالية، مما يضمن الجودة والراحة في كل زوج. منصتنا سهلة الاستخدام تجعل التسوق سهلاً وممتعًا. نحن نؤمن بأن الأحذية هي تعبير شخصي عن الأناقة، ونحن نسعى جاهدين لمساعدتك في العثور على الزوج المثالي الذي يناسب شخصيتك. انضم إلينا لاستكشاف مجموعتنا المختارة واختبر الفرق في الجودة والخدمة الذي يميزنا.",
     },
     products: [
       {
@@ -2283,7 +1761,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "ULTRA BOOST 1.0",
+        name: "دفعة فائقة 1.0",
         description: "من نزهة في الحديقة إلى جري في عطلة نهاية الأسبوع مع الأصدقاء، تم تصميم هذه الأحذية adidas Ultraboost 1.0 لتبقيك مرتاحًا. يحيط الجزء العلوي من adidas PRIMEKNIT برفق قدميك بينما يمتص BOOST في النعل الأوسط من الخطوة الأولى إلى آخر ميل.",
         price: {
           amount: 9999,
@@ -2402,7 +1880,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE MENS",
+        name: "رجال أسمنتيون",
         description: "نعل من رغوة الذاكرة لتوفير المزيد من التبطين والراحة.",
         price: {
           amount: 8001,
@@ -2428,7 +1906,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Criterian Mens 28",
+        name: "كريتيريان للرجال 28",
         description: "راحة: تصميم ديربي مرن يمنحك حرية الحركة بشكل مريح. نعل داخلي خفيف مبطن للراحة وامتصاص الصدمات.",
         price: {
           amount: 28966,
@@ -2470,9 +1948,14 @@ export const translationsGerman = {
   };
 
   export const translationsJapanese = {
-    meta:{
+    meta: {
       available: "利用可能",
       sold: '販売済み',
+      title: 'シューズワールドへようこそ！',
+      contact:{
+        name:'手を伸ばして「こんにちは！」と言ってください。',
+      },
+      aboutContent: "当社は、お客様に最新のスタイルを提供することに重点を置いた靴の再販専門組織です。当社のコレクションには、現在のトレンドを反映した人気ブランドが揃っており、どのペアも品質と快適さを保証しています。当社のユーザーフレンドリーなプラットフォームにより、ショッピングが簡単で楽しいものになります。私たちは、靴は個人のスタイルを表現するものであると信じており、あなたの個性に合った完璧な一足を見つけるお手伝いをするよう努めています。私たちの厳選されたセレクションに参加して、私たちを際立たせる品質とサービスの違いを体験してください。",
     },
     products: [
       {
@@ -2685,7 +2168,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "ULTRA BOOST 1.0",
+        name: "ウルトラブースト1.0",
         description: "公園での散歩から友達との週末ランまで、これらのアディダス Ultraboost 1.0 シューズは、あなたを快適に保つように設計されています。アディダス PRIMEKNIT アッパーはあなたの足を優しく包み、BOOST はミッドソールで最初のステップから最後のマイルまでクッションを提供します。",
         price: {
           amount: 9999,
@@ -2711,7 +2194,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "DECODE ME",
+        name: "デコード・ミー",
         description: "これらのメルセデス - AMG ペトロナス フォーミュラ 1 チームのシューズに足を滑り込ませて、どこに行ってもレースファンを持ち運びましょう。スウェードとナイロンのブレンドがアッパーにユニークな質感とスタイルを与え、長持ちするように作られています。チームカラーのアッパーにある 3 ストライプと、ヒールタブのチームロゴが公式なルックを保ちます。",
         price: {
           amount: 6666,
@@ -2804,7 +2287,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE メンズ",
+        name: "セメンティブ メンズ",
         description: "より多くのクッション性と快適さを提供するメモリーフォームインソール。",
         price: {
           amount: 8001,
@@ -2856,7 +2339,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "GUCCI 3DR CUB",
+        name: "グッチ 3DR カブ",
         description: "2025年春夏コレクションでは、このグッチ cub3d スニーカーが革新的な素材と構造を融合させています。アッパーはデメトラとメッシュの混合であり、高周波技術で作成された詳細が特徴で、ソールは EVA 充填の内部と TPU を外側に組み合わせ、3D インターロッキング G パターンで完成しています。",
         price: {
           amount: 30999,
@@ -2872,817 +2355,466 @@ export const translationsGerman = {
   };
 
   export const translationsRussian = {
-    meta:{
-      available: "利用可能",
-      sold: '販売済み',
+    meta: {
+        available: "доступный",
+        sold: 'продал',
+        title: 'Добро пожаловать в мир обуви!',
+        contact: {
+            name: 'Estenda a mão para usar e diga Olá!',
+        },
+        aboutContent: "Мы являемся специализированной организацией по перепродаже обуви, ориентированной на предоставление нашим клиентам новейших стилей. В нашей коллекции представлены популярные бренды, которые отражают современные тенденции, обеспечивая качество и комфорт в каждой паре. Наша удобная платформа делает покупки легкими и приятными. Мы считаем, что обувь — это личное выражение стиля, и стремимся помочь вам найти идеальную пару, которая будет соответствовать вашей индивидуальности. Присоединяйтесь к нам, изучая наш тщательно подобранный выбор, и ощутите разницу в качестве и обслуживании, которая отличает нас.",
     },
     products: [
-      {
-        name: "Nike Dunk Low Retro",
-        description: "Созданный для паркета, но перенесенный на улицы, Nike Dunk Low Retro возвращается с четкими наложениями и оригинальными цветами команды. Этот баскетбольный иконка передает атмосферу 80-х с премиальной кожей в верхней части, которая выглядит хорошо и еще лучше носится. Современные технологии обуви помогают принести комфорт в 21-й век.",
-        price: {
-          amount: 8295,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Ретро",
+            description: "Описание Nike Dunk Low Ретро.",
+            price: { amount: 8295, currency: "INR" },
+            image: img1,
+            inventory: { available: 100, sold: 10 }
         },
-        image: img1,
-        inventory: {
-          available: 100,
-          sold: 10
-        }
-      },
-      {
-        name: "Nike Dunk Low Retro SE",
-        description: "На классический стиль всегда можно положиться. Dunk Low Retro сочетает монохромный вид с премиальными материалами и мягкой подкладкой для комфорта, который меняет правила игры и длится долго. Возможности безграничны — как вы будете носить свои Dunks?",
-        price: {
-          amount: 10795,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Retro SE",
+            description: "Описание Nike Dunk Low Retro SE.",
+            price: { amount: 10795, currency: "INR" },
+            image: img2,
+            inventory: { available: 200, sold: 20 }
         },
-        image: img2,
-        inventory: {
-          available: 200,
-          sold: 20
-        }
-      },
-      {
-        name: "Nike Dunk Low Retro SE S2",
-        description: "На классический стиль всегда можно положиться. Dunk Low Retro сочетает монохромный вид с премиальными материалами и мягкой подкладкой для комфорта, который меняет правила игры и длится долго. Возможности безграничны — как вы будете носить свои Dunks?",
-        price: {
-          amount: 10795,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Retro SE S2",
+            description: "Описание Nike Dunk Low Retro SE S2.",
+            price: { amount: 10795, currency: "INR" },
+            image: img3,
+            inventory: { available: 150, sold: 15 }
         },
-        image: img3,
-        inventory: {
-          available: 150,
-          sold: 15
-        }
-      },
-      {
-        name: "Nike Dunk Low SE A#",
-        description: "Чрезвычайно универсальный, поразительно чистый и о-очень классический. Dunk Low сочетает замшу и кожу для безупречного завершения. Он идет с мягким воротником, легким амортизатором и резиновой подошвой. Завяжите шнурки и принесите пляжные вибрации с собой.",
-        price: {
-          amount: 11899,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low SE A #",
+            description: "Описание Nike Dunk Low SE A #.",
+            price: { amount: 11899, currency: "INR" },
+            image: img4,
+            inventory: { available: 80, sold: 5 }
         },
-        image: img4,
-        inventory: {
-          available: 80,
-          sold: 5
-        }
-      },
-      {
-        name: "Nike SB Dunk Low Pro",
-        description: "Иконка баскетбола 80-х возвращается с классическими деталями и ностальгическим стилем. Передавая винтажный стиль обратно на улицы, его мягкий низкий воротник позволяет вам комфортно брать свою игру куда угодно.",
-        price: {
-          amount: 5999,
-          currency: "USD"
+        {
+            name: "Nike SB Dunk Low Pro",
+            description: "Описание Nike SB Dunk Low Pro.",
+            price: { amount: 5999, currency: "USD" },
+            image: img5,
+            inventory: { available: 60, sold: 2 }
         },
-        image: img5,
-        inventory: {
-          available: 60,
-          sold: 2
-        }
-      },
-      {
-        name: "Nike Dunk Low",
-        isSpecial: true,
-        description: "Иконка 80-х возвращается с классическими деталями и ностальгическим стилем. Передавая винтажный стиль обратно на улицы, его мягкий воротник позволяет вам комфортно брать свою игру куда угодно.",
-        price: {
-          amount: 6999,
-          currency: "INR"
+        {
+            name: "Nike Данк Лоу",
+            description: "Описание Nike Данк Лоу.",
+            price: { amount: 6999, currency: "INR" },
+            image: img6,
+            inventory: { available: 90, sold: 8 }
         },
-        image: img6,
-        inventory: {
-          available: 90,
-          sold: 8
-        }
-      },
-      {
-        name: "Nike Dunk Low 34",
-        description: "Признавая корни Dunk как топовый университетский сникер, пакет Be True To Your School вдохновляется оригинальной рекламной кампанией. Цвета представляют лучшие университеты, в то время как чистая кожа имеет идеальное количество блеска, чтобы сделать их безусловной победой. Так что завяжите шнурки и покажите этот университетский дух. Вы готовы?",
-        price: {
-          amount: 7999,
-          currency: "INR"
+        {
+            name: "Nike Данк Лоу 34",
+            description: "Описание Nike Данк Лоу 34.",
+            price: { amount: 7999, currency: "INR" },
+            image: img7,
+            inventory: { available: 110, sold: 12 }
         },
-        image: img7,
-        inventory: {
-          available: 110,
-          sold: 12
-        }
-      },
-      {
-        name: "Nike Hilander Pro Man",
-        description: "На классический стиль всегда можно положиться. Этот дизайн с цветными блоками сочетает кожу и замшу с мягкой подкладкой для комфорта, который меняет правила игры и длится долго. Возможности безграничны — как вы будете носить свои Dunks?",
-        price: {
-          amount: 8999,
-          currency: "INR"
+        {
+            name: "Найк Хиландер Про Человек",
+            description: "Описание Найк Хиландер Про Человек.",
+            price: { amount: 8999, currency: "INR" },
+            image: img8,
+            inventory: { available: 70, sold: 3 }
         },
-        image: img8,
-        inventory: {
-          available: 70,
-          sold: 3
-        }
-      },
-      {
-        name: "Nike Retro Premium 1980",
-        description: "На классический стиль всегда можно положиться. Эта премиум версия Dunk Low сочетает смешанные материалы с полностью черным верхом для носимого вида и комфорта, который длится долго. Возможности безграничны — как вы будете носить свои Dunks?",
-        price: {
-          amount: 9999,
-          currency: "INR"
+        {
+            name: "Найк Ретро Премиум 1980 года",
+            description: "Описание Найк Ретро Премиум 1980 года.",
+            price: { amount: 9999, currency: "INR" },
+            image: img9,
+            inventory: { available: 50, sold: 1 }
         },
-        image: img9,
-        inventory: {
-          available: 50,
-          sold: 1
-        }
-      },
-      {
-        name: "Nike Jordans Limited Edition",
-        description: "На классический стиль всегда можно положиться. Dunk Low сочетает свою знаковую цветовую блокировку с премиальными материалами и мягкой подкладкой для комфорта, который меняет правила игры и длится долго. Возможности безграничны — как вы будете носить свои Dunks?",
-        price: {
-          amount: 10999,
-          currency: "INR"
+        {
+            name: "Найк Джорданс, ограниченная серия",
+            description: "Описание Найк Джорданс, ограниченная серия.",
+            price: { amount: 10999, currency: "INR" },
+            image: img10,
+            inventory: { available: 40, sold: 0 }
         },
-        image: img10,
-        inventory: {
-          available: 40,
-          sold: 0
-        }
-      },
-      {
-        name: "Samba OG",
-        description: "Рожденный на поле, Samba является вечной иконой уличного стиля. Эта силуэт остается верным своему наследию с элегантным, низкопрофильным, мягким кожаным верхом, замшевыми накладками и резиновой подошвой, что делает его основным элементом в гардеробе каждого — на поле и вне его.",
-        price: {
-          amount: 11999,
-          currency: "INR"
+        {
+            name: "Самба ОГ",
+            description: "Описание Самба ОГ.",
+            price: { amount: 11999, currency: "INR" },
+            image: img11,
+            inventory: { available: 30, sold: 1 }
         },
-        image: img11,
-        inventory: {
-          available: 30,
-          sold: 1
-        }
-      },
-      {
-        name: "Fair Run 4",
-        description: "Обувь для удовольствия. Эти обувь с системой Torsion от adidas имеют много индивидуальности. Гладкий верх обеспечивает комфорт и гибкость, в то время как текстильная подкладка и резиновая подошва предлагают идеальное сочетание амортизации и стабильности. Будьте смелыми в этих выделяющихся кроссовках.",
-        price: {
-          amount: 12999,
-          currency: "INR"
+        {
+            name: "Честный забег 4",
+            description: "Описание Честный забег 4.",
+            price: { amount: 12999, currency: "INR" },
+            image: img12,
+            inventory: { available: 20, sold: 0 }
         },
-        image: img12,
-        inventory: {
-          available: 20,
-          sold: 0
-        }
-      },
-      {
-        name: "Vent Shoot '96",
-        description: "Этот продукт изготовлен из 100% переработанных материалов. Путем повторного использования материалов, которые уже были созданы, мы помогаем снизить количество отходов и нашу зависимость от конечных ресурсов и сократить углеродный след продуктов, которые мы производим.",
-        price: {
-          amount: 799,
-          currency: "INR"
+        {
+            name: "Вентиляция Стрельба '96",
+            description: "Описание Вентиляция Стрельба '96.",
+            price: { amount: 799, currency: "INR" },
+            image: img13,
+            inventory: { available: 10, sold: 2 }
         },
-        image: img13,
-        inventory: {
-          available: 10,
-          sold: 2
-        }
-      },
-      {
-        name: "MPM 78",
-        description: "Обувь для удовольствия. Эти обувь с системой Torsion от adidas имеют много индивидуальности. Гладкий верх обеспечивает комфорт и гибкость, в то время как текстильная подкладка и резиновая подошва предлагают идеальное сочетание амортизации и стабильности. Будьте смелыми в этих выделяющихся кроссовках.",
-        price: {
-          amount: 4499,
-          currency: "INR"
+        {
+            name: "МПМ 78",
+            description: "Описание МПМ 78.",
+            price: { amount: 4499, currency: "INR" },
+            image: img14,
+            inventory: { available: 5, sold: 0 }
         },
-        image: img14,
-        inventory: {
-          available: 5,
-          sold: 0
-        }
-      },
-      {
-        name: "Asturned Run",
-        description: "Сохраняйте чистоту — независимо от того, насколько вы любите наш продукт, не используйте слова, которые вы не использовали бы с вашей бабушкой. Сосредоточьтесь на продукте — если у вас есть проблема, не связанная с самим продуктом (например, время доставки, цена), пожалуйста, направьте это в нашу службу поддержки клиентов, чтобы они могли помочь вам.",
-        price: {
-          amount: 4040,
-          currency: "INR"
+        {
+            name: "Сбитый с толку бег",
+            description: "Описание Сбитый с толку бег.",
+            price: { amount: 8999, currency: "INR" },
+            image: img15,
+            inventory: { available: 70, sold: 3 }
         },
-        image: img15,
-        inventory: {
-          available: 15,
-          sold: 3
-        }
-      },
-      {
-        name: "Grand Court",
-        description: "Изготовлено из ряда переработанных материалов, этот верх содержит не менее 50% переработанного содержимого.",
-        price: {
-          amount: 16999,
-          currency: "INR"
+        {
+            name: "Большой суд",
+            description: "Описание Большой суд.",
+            price: { amount: 16999, currency: "INR" },
+            image: img16,
+            inventory: { available: 25, sold: 4 }
         },
-        image: img16,
-        inventory: {
-          available: 25,
-          sold: 4
-        }
-      },
-      {
-        name: "ULTRA BOOST 1.0",
-        description: "От прогулки в парке до забега с друзьями в выходные, эти кроссовки adidas Ultraboost 1.0 созданы, чтобы обеспечить вам комфорт. Верх из adidas PRIMEKNIT нежно обнимает ваши ноги, в то время как BOOST на промежуточной подошве амортизирует от первого шага до последней мили.",
-        price: {
-          amount: 9999,
-          currency: "INR"
+        {
+            name: "УЛЬТРА БУСТ 1.0",
+            description: "Описание УЛЬТРА БУСТ 1.0.",
+            price: { amount: 9999, currency: "INR" },
+            image: img17,
+            inventory: { available: 35, sold: 5 }
         },
-        image: img17,
-        inventory: {
-          available: 35,
-          sold: 5
-        }
-      },
-      {
-        name: "Cloud Foam 18 Retro",
-        description: "Ваш идеальный выбор в загруженные дни. Эти кроссовки adidas стильные и элегантные, легко комбинируются с чем угодно, от спортивной одежды до джинсов. Легкий верх с подкладкой для комфорта, в то время как амортизация Cloudfoam обеспечивает вам комфортное движение.",
-        price: {
-          amount: 5555,
-          currency: "INR"
+        {
+            name: "Облачная пена 18 Ретро",
+            description: "Описание Облачная пена 18 Ретро.",
+            price: { amount: 5555, currency: "INR" },
+            image: img18,
+            inventory: { available: 45, sold: 6 }
         },
-        image: img18,
-        inventory: {
-          available: 45,
-          sold: 6
-        }
-      },
-      {
-        name: "DECODE ME",
-        description: "Наденьте эти кроссовки от Mercedes - AMG Petronas Formula One Team от adidas, чтобы взять свою страсть к гонкам с собой куда бы вы ни пошли. Смесь замши и нейлона придает верхней части уникальную текстуру и стиль, созданные для долговечности. 3-строчки на верхней части в цветах команды и логотип команды на язычке пятки сохраняют официальный вид.",
-        price: {
-          amount: 6666,
-          currency: "INR"
+        {
+            name: "РАСКРОДИРУЙТЕ МЕНЯ",
+            description: "Описание РАСКРОДИРУЙТЕ МЕНЯ.",
+            price: { amount: 6666, currency: "INR" },
+            image: img19,
+            inventory: { available: 55, sold: 7 }
         },
-        image: img19,
-        inventory: {
-          available: 55,
-          sold: 7
-        }
-      },
-      {
-        name: "Switch Run Cyan",
-        description: "Сочетая стиль с деталями без отвлечений, последняя линейка беговых основ adidas позволит вам выглядеть так же хорошо, как вы себя чувствуете, пока вы проходите километры. Так вы сможете сосредоточиться на самом важном: получать удовольствие от бега.",
-        price: {
-          amount: 20999,
-          currency: "INR"
+        {
+            name: "Переключить Запустить Голубой",
+            description: "Описание Переключить Запустить Голубой.",
+            price: { amount: 20999, currency: "INR" },
+            image: img20,
+            inventory: { available: 65, sold: 8 }
         },
-        image: img20,
-        inventory: {
-          available: 65,
-          sold: 8
-        }
-      },
-      {
-        name: "Eazy Beleciaga",
-        isSpecial: true,
-        description: "Balenciaga отказывается от какой-либо ответственности в случае несоответствия потребителя указанным выше инструкциям по уходу и обращению или неправильного использования. Пожалуйста, свяжитесь со службой поддержки клиентов Balenciaga для получения дополнительной информации или помощи.",
-        price: {
-          amount: 81999,
-          currency: "INR"
+        {
+            name: "Изи Белесиага",
+            description: "Описание Изи Белесиага.",
+            price: { amount: 81999, currency: "INR" },
+            image: img21,
+            inventory: { available: 75, sold: 9 }
         },
-        image: img21,
-        inventory: {
-          available: 75,
-          sold: 9
-        }
-      },
-      {
-        name: "Продукт 22",
-        isSpecial: true,
-        description: "Бесплатные возвраты и обмен в течение 30 дней с даты доставки. Вы можете обменять свой товар только на другой размер или цвет. Применяются исключения для продуктов. Для получения дополнительной информации.",
-        price: {
-          amount: 92999,
-          currency: "INR"
+        {
+            name: "Продукт 22",
+            description: "Описание Продукт 22.",
+            price: { amount: 92999, currency: "INR" },
+            image: img22,
+            inventory: { available: 85, sold: 10 }
         },
-        image: img22,
-        inventory: {
-          available: 85,
-          sold: 10
-        }
-      },
-      {
-        name: "GUCCI B3D",
-        description: "В коллекции весна-лето 2025 этот кроссовок Gucci cub3d сочетает в себе инновационные материалы и конструкции. Верх сделан из смеси Деметры и сетки, с деталями, созданными с использованием высокочастотной техники, в то время как подошва сочетает в себе EVA-наполненный внутренний слой и TPU снаружи, дополненный 3D-взаимозамкнутым G-узором.",
-        price: {
-          amount: 23999,
-          currency: "INR"
+        {
+            name: "Гуччи B3D",
+            description: "Описание Гуччи B3D.",
+            price: { amount: 23999, currency: "INR" },
+            image: img23,
+            inventory: { available: 95, sold: 11 }
         },
-        image: img23,
-        inventory: {
-          available: 95,
-          sold: 11
-        }
-      },
-      {
-        name: "Becca Mens 6253BA",
-        description: "Сильная амортизация для уменьшения воздействия. Уникальный патч амортизации уни-борта. Более сильный захват с отличным впереди движением и надежным захватом, вам не нужно беспокоиться о стирании.",
-        price: {
-          amount: 10000,
-          currency: "INR"
+        {
+            name: "Бекка Мужская 6253BA",
+            description: "Описание Бекка Мужская 6253BA.",
+            price: { amount: 10000, currency: "INR" },
+            image: img24,
+            inventory: { available: 105, sold: 12 }
         },
-        image: img24,
-        inventory: {
-          available: 105,
-          sold: 12
-        }
-      },
-      {
-        name: "Dominator C.10",
-        description: "Легкие и дышащие: эти мужские беговые обуви разработаны с использованием прочных материалов и легкой в использовании технологии шнуровки, что делает их идеальными для бега, ходьбы и спорта. Дышащий верхний материал и легкая подошва Phylon обеспечивают комфорт во время бега.",
-        price: {
-          amount: 7990,
-          currency: "INR"
+        {
+            name: "Доминатор C.10",
+            description: "Описание Доминатор C.10.",
+            price: { amount: 7990, currency: "INR" },
+            image: img25,
+            inventory: { available: 115, sold: 13 }
         },
-        image: img25,
-        inventory: {
-          available: 115,
-          sold: 13
-        }
-      },
-      {
-        name: "CEMENTIVE MENS",
-        description: "Вставка из мемори-фона для обеспечения большей амортизации и комфорта.",
-        price: {
-          amount: 8001,
-          currency: "INR"
+        {
+            name: "ЦЕМЕНТИВНЫЙ МУЖСКОЙ",
+            description: "Описание ЦЕМЕНТИВНЫЙ МУЖСКОЙ.",
+            price: { amount: 8001, currency: "INR" },
+            image: img26,
+            inventory: { available: 125, sold: 14 }
         },
-        image: img26,
-        inventory: {
-          available: 125,
-          sold: 14
-        }
-      },
-      {
-        name: "Red Chiesf Genune ATAG",
-        description: "ЛЕГКО СОЧЕТАТЬ - Эти мужские обуви имеют классический дизайн цветового сочетания, легко сочетаются с одеждой. Вы можете носить эту обувь с джинсами, повседневными брюками, укороченными брюками и шортами. Идеально подходит для любых случаев.",
-        price: {
-          amount: 2799,
-          currency: "INR"
+        {
+            name: "Красный Чисф Genune ATAG",
+            description: "Описание Красный Чисф Genune ATAG.",
+            price: { amount: 2799, currency: "INR" },
+            image: img27,
+            inventory: { available: 135, sold: 15 }
         },
-        image: img27,
-        inventory: {
-          available: 135,
-          sold: 15
-        }
-      },
-      {
-        name: "Criterian Mens 28",
-        description: "Комфорт: Гибкая конструкция Derby дает вам свободу удобно двигаться. Легко амортизированная вставка из пены для комфорта и поглощения ударов.",
-        price: {
-          amount: 28966,
-          currency: "INR"
+        {
+            name: "Критерий Мужской 28",
+            description: "Описание Критерий Мужской 28.",
+            price: { amount: 28966, currency: "INR" },
+            image: img28,
+            inventory: { available: 145, sold: 16 }
         },
-        image: img28,
-        inventory: {
-          available: 145,
-          sold: 16
-        }
-      },
-      {
-        name: "Sneaker 6783",
-        description: "Продукты Gucci изготовлены из тщательно отобранных материалов. Пожалуйста, обращайтесь с осторожностью, чтобы продлить срок службы продукта. Защищайте от прямого света, тепла и дождя. Если он намокнет, немедленно высушите его мягкой тканью.",
-        price: {
-          amount: 45699,
-          currency: "INR"
+        {
+            name: "Кроссовки 6783",
+            description: "Описание Кроссовки 6783.",
+            price: { amount: 45699, currency: "INR" },
+            image: img29,
+            inventory: { available: 155, sold: 17 }
         },
-        image: img29,
-        inventory: {
-          available: 155,
-          sold: 17
+        {
+            name: "GUCCI 3DR ДЕБЕНОК",
+            description: "Описание GUCCI 3DR ДЕБЕНОК.",
+            price: { amount: 30999, currency: "INR" },
+            image: img30,
+            inventory: { available: 165, sold: 18 }
         }
-      },
-      {
-        name: "GUCCI 3DR CUB",
-        description: "В коллекции весна-лето 2025 этот кроссовок Gucci cub3d сочетает в себе инновационные материалы и конструкции. Верх сделан из смеси Деметры и сетки, с деталями, созданными с использованием высокочастотной техники, в то время как подошва сочетает в себе EVA-наполненный внутренний слой и TPU снаружи, дополненный 3D-взаимозамкнутым G-узором.",
-        price: {
-          amount: 30999,
-          currency: "INR"
-        },
-        image: img30,
-        inventory: {
-          available: 165,
-          sold: 18
-        }
-      }
     ]
-  };
+};
 
   export const translationsPortuguese = {
-    meta:{
-      available: "利用可能",
-      sold: '販売済み',
+    meta: {
+        available: "vendido",
+        sold: 'disponível',
+        title: 'Bem-vindo ao Mundo do Calçado!',
+        contact: {
+            name: 'Estenda a mão para usar e diga Olá!',
+        },
+        aboutContent: "Somos uma organização dedicada à revenda de calçados, focada em fornecer os estilos mais recentes aos nossos clientes. Nossa coleção apresenta marcas populares que refletem as tendências atuais, garantindo qualidade e conforto em cada par. Nossa plataforma amigável torna as compras fáceis e agradáveis. Acreditamos que o calçado é uma expressão pessoal de estilo e esforçamo-nos por ajudá-lo a encontrar o par perfeito que se adapta à sua individualidade. Junte-se a nós para explorar nossa seleção selecionada e experimente a diferença de qualidade e serviço que nos diferencia.",
     },
     products: [
-      {
-        name: "Nike Dunk Low Retro",
-        description: "Criado para o parquet, mas levado para as ruas, o Nike Dunk Low Retro retorna com sobreposições nítidas e cores originais da equipe. Este ícone do basquete traz a atmosfera dos anos 80 com um cabedal em couro premium que parece bom e ainda melhor se ajusta. As tecnologias modernas de calçados ajudam a trazer conforto para o século 21.",
-        price: {
-          amount: 8295,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Retro",
+            description: "Descrição do Nike Dunk Low Retro.",
+            price: { amount: 8295, currency: "INR" },
+            image: img1,
+            inventory: { available: 100, sold: 10 }
         },
-        image: img1,
-        inventory: {
-          available: 100,
-          sold: 10
-        }
-      },
-      {
-        name: "Nike Dunk Low Retro SE",
-        description: "Um clássico em que você sempre pode confiar. O Dunk Low Retro combina um visual monocromático com materiais premium e um acolchoamento macio para um conforto que muda o jogo. As possibilidades são infinitas — como você vai usar seu Dunk?",
-        price: {
-          amount: 10795,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Retro SE",
+            description: "Descrição do Nike Dunk Low Retro SE.",
+            price: { amount: 10795, currency: "INR" },
+            image: img2,
+            inventory: { available: 200, sold: 20 }
         },
-        image: img2,
-        inventory: {
-          available: 200,
-          sold: 20
-        }
-      },
-      {
-        name: "Nike Dunk Low Retro SE S2",
-        description: "Um clássico em que você sempre pode confiar. O Dunk Low Retro combina um visual monocromático com materiais premium e um acolchoamento macio para um conforto que muda o jogo. As possibilidades são infinitas — como você vai usar seu Dunk?",
-        price: {
-          amount: 10795,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low Retro SE S2",
+            description: "Descrição do Nike Dunk Low Retro SE S2.",
+            price: { amount: 10795, currency: "INR" },
+            image: img3,
+            inventory: { available: 150, sold: 15 }
         },
-        image: img3,
-        inventory: {
-          available: 150,
-          sold: 15
-        }
-      },
-      {
-        name: "Nike Dunk Low SE A#",
-        description: "Extremamente versátil, impressionantemente limpo e muito clássico. O Dunk Low combina camurça e couro para um acabamento impecável. Vem com um colarinho acolchoado, amortecimento leve e uma sola de borracha. Amarre os cadarços e traga as vibrações da praia com você.",
-        price: {
-          amount: 11899,
-          currency: "INR"
+        {
+            name: "Nike Dunk Low SE A#",
+            description: "Descrição do Nike Dunk Low SE A#.",
+            price: { amount: 11899, currency: "INR" },
+            image: img4,
+            inventory: { available: 80, sold: 5 }
         },
-        image: img4,
-        inventory: {
-          available: 80,
-          sold: 5
-        }
-      },
-      {
-        name: "Nike SB Dunk Low Pro",
-        description: "O ícone do basquete dos anos 80 retorna com detalhes clássicos e um toque nostálgico. Trazendo o estilo vintage de volta às ruas, seu colarinho baixo acolchoado permite que você leve seu jogo a qualquer lugar com conforto.",
-        price: {
-          amount: 5999,
-          currency: "USD"
+        {
+            name: "Nike SB Dunk Low Pro",
+            description: "Descrição do Nike SB Dunk Low Pro.",
+            price: { amount: 5999, currency: "USD" },
+            image: img5,
+            inventory: { available: 60, sold: 2 }
         },
-        image: img5,
-        inventory: {
-          available: 60,
-          sold: 2
-        }
-      },
-      {
-        name: "Nike Dunk Low",
-        isSpecial: true,
-        description: "O ícone dos anos 80 retorna com detalhes clássicos e um toque nostálgico. Trazendo o estilo vintage de volta às ruas, seu colarinho baixo acolchoado permite que você leve seu jogo a qualquer lugar com conforto.",
-        price: {
-          amount: 6999,
-          currency: "INR"
+        {
+            name: "Nike Dunk Baixo",
+            description: "Descrição do Nike Dunk Baixo.",
+            price: { amount: 6999, currency: "INR" },
+            image: img6,
+            inventory: { available: 90, sold: 8 }
         },
-        image: img6,
-        inventory: {
-          available: 90,
-          sold: 8
-        }
-      },
-      {
-        name: "Nike Dunk Low 34",
-        description: "Reconhecendo as raízes do Dunk como um sneaker universitário de topo, o pacote Be True To Your School é inspirado na campanha publicitária original. As cores representam as melhores universidades, enquanto o couro limpo tem o brilho perfeito para garantir uma vitória. Então, amarre os cadarços e mostre esse espírito universitário. Você está pronto?",
-        price: {
-          amount: 7999,
-          currency: "INR"
+        {
+            name: "Nike Dunk Baixo 34",
+            description: "Descrição do Nike Dunk Baixo 34.",
+            price: { amount: 7999, currency: "INR" },
+            image: img7,
+            inventory: { available: 110, sold: 12 }
         },
-        image: img7,
-        inventory: {
-          available: 110,
-          sold: 12
-        }
-      },
-      {
-        name: "Nike Hilander Pro Masculino",
-        description: "Um clássico em que você sempre pode confiar. Este design de bloco de cores combina couro e camurça com um acolchoamento macio para um conforto que muda o jogo. As possibilidades são infinitas — como você vai usar seu Dunk?",
-        price: {
-          amount: 8999,
-          currency: "INR"
+        {
+            name: "Nike Hilander Pro Masculino",
+            description: "Descrição do Nike Hilander Pro Masculino.",
+            price: { amount: 8999, currency: "INR" },
+            image: img8,
+            inventory: { available: 70, sold: 3 }
         },
-        image: img8,
-        inventory: {
-          available: 70,
-          sold: 3
-        }
-      },
-      {
-        name: "Nike Retro Premium 1980",
-        description: "Um clássico em que você sempre pode confiar. Esta versão premium do Dunk Low combina materiais mistos com um cabedal totalmente preto para um visual fácil de usar e conforto que dura. As possibilidades são infinitas — como você vai usar seu Dunk?",
-        price: {
-          amount: 9999,
-          currency: "INR"
+        {
+            name: "Nike Retro Premium 1980",
+            description: "Descrição do Nike Retro Premium 1980.",
+            price: { amount: 9999, currency: "INR" },
+            image: img9,
+            inventory: { available: 50, sold: 1 }
         },
-        image: img9,
-        inventory: {
-          available: 50,
-          sold: 1
-        }
-      },
-      {
-        name: "Nike Jordans Edição Limitada",
-        description: "Um clássico em que você sempre pode confiar. O Dunk Low combina seu bloqueio de cores icônico com materiais premium e um acolchoamento macio para um conforto que muda o jogo. As possibilidades são infinitas — como você vai usar seu Dunk?",
-        price: {
-          amount: 10999,
-          currency: "INR"
+        {
+            name: "Nike Jordans Edição Limitada",
+            description: "Descrição do Nike Jordans Edição Limitada.",
+            price: { amount: 10999, currency: "INR" },
+            image: img10,
+            inventory: { available: 40, sold: 0 }
         },
-        image: img10,
-        inventory: {
-          available: 40,
-          sold: 0
-        }
-      },
-      {
-        name: "Samba OG",
-        description: "Nascido no campo, o Samba é um ícone atemporal do estilo de rua. Este silhueta permanece fiel ao seu legado com um cabedal de couro macio de perfil baixo, sobreposições de camurça e uma sola de borracha, tornando-o um item essencial no guarda-roupa de todos — em campo e fora dele.",
-        price: {
-          amount: 11999,
-          currency: "INR"
+        {
+            name: "Samba OG",
+            description: "Descrição do Samba OG.",
+            price: { amount: 11999, currency: "INR" },
+            image: img11,
+            inventory: { available: 30, sold: 1 }
         },
-        image: img11,
-        inventory: {
-          available: 30,
-          sold: 1
-        }
-      },
-      {
-        name: "Fair Run 4",
-        description: "Calçado para diversão. Esses calçados com o sistema Torsion da adidas têm muita personalidade. O cabedal liso oferece conforto e flexibilidade, enquanto o forro têxtil e a sola de borracha oferecem a combinação perfeita de amortecimento e estabilidade. Seja ousado com esses tênis chamativos.",
-        price: {
-          amount: 12999,
-          currency: "INR"
+        {
+            name: "Corrida Justa 4",
+            description: "Descrição do Corrida Justa 4.",
+            price: { amount: 12999, currency: "INR" },
+            image: img12,
+            inventory: { available: 20, sold: 0 }
         },
-        image: img12,
-        inventory: {
-          available: 20,
-          sold: 0
-        }
-      },
-      {
-        name: "Vent Shoot '96",
-        description: "Este produto é feito de 100% materiais reciclados. Ao reutilizar materiais que já foram criados, ajudamos a reduzir o desperdício e a dependência de recursos finitos, diminuindo a pegada de carbono dos produtos que fabricamos.",
-        price: {
-          amount: 799,
-          currency: "INR"
+        {
+            name: "Ventilação de tiro '96",
+            description: "Descrição do Ventilação de tiro '96.",
+            price: { amount: 799, currency: "INR" },
+            image: img13,
+            inventory: { available: 10, sold: 2 }
         },
-        image: img13,
-        inventory: {
-          available: 10,
-          sold: 2
-        }
-      },
-      {
-        name: "MPM 78",
-        description: "Calçado para diversão. Esses calçados com o sistema Torsion da adidas têm muita personalidade. O cabedal liso oferece conforto e flexibilidade, enquanto o forro têxtil e a sola de borracha oferecem a combinação perfeita de amortecimento e estabilidade. Seja ousado com esses tênis chamativos.",
-        price: {
-          amount: 4499,
-          currency: "INR"
+        {
+            name: "MPM 78",
+            description: "Descrição do MPM 78.",
+            price: { amount: 4499, currency: "INR" },
+            image: img14,
+            inventory: { available: 5, sold: 0 }
         },
-        image: img14,
-        inventory: {
-          available: 5,
-          sold: 0
-        }
-      },
-      {
-        name: "Asturned Run",
-        description: "Mantenha limpo — não importa o quanto você ame nosso produto, não use palavras que você não usaria com sua avó. Concentre-se no produto — se você tiver um problema que não esteja relacionado ao próprio produto (por exemplo, tempo de entrega, preço), entre em contato com nossa equipe de atendimento ao cliente para que eles possam ajudar.",
-        price: {
-          amount: 4040,
-          currency: "INR"
+        {
+            name: "Corrida revirada",
+            description: "Descrição do Corrida revirada.",
+            price: { amount: 8999, currency: "INR" },
+            image: img15,
+            inventory: { available: 70, sold: 3 }
         },
-        image: img15,
-        inventory: {
-          available: 15,
-          sold: 3
-        }
-      },
-      {
-        name: "Grand Court",
-        description: "Feito de uma variedade de materiais reciclados, este cabedal contém pelo menos 50% de conteúdo reciclado.",
-        price: {
-          amount: 16999,
-          currency: "INR"
+        {
+            name: "Grande Tribunal",
+            description: "Descrição do Grande Tribunal.",
+            price: { amount: 16999, currency: "INR" },
+            image: img16,
+            inventory: { available: 25, sold: 4 }
         },
-        image: img16,
-        inventory: {
-          available: 25,
-          sold: 4
-        }
-      },
-      {
-        name: "ULTRA BOOST 1.0",
-        description: "Desde passeios no parque até corridas de fim de semana com amigos, esses tênis adidas Ultraboost 1.0 são projetados para mantê-lo confortável. O cabedal de adidas PRIMEKNIT envolve suavemente seus pés, enquanto o BOOST na entressola fornece amortecimento desde o primeiro passo até a última milha.",
-        price: {
-          amount: 9999,
-          currency: "INR"
+        {
+            name: "ULTRA-IMPULSO 1.0",
+            description: "Descrição do ULTRA-IMPULSO 1.0.",
+            price: { amount: 9999, currency: "INR" },
+            image: img17,
+            inventory: { available: 35, sold: 5 }
         },
-        image: img17,
-        inventory: {
-          available: 35,
-          sold: 5
-        }
-      },
-      {
-        name: "Cloud Foam 18 Retro",
-        description: "Sua escolha ideal para dias movimentados. Esses tênis adidas são elegantes e estilosos, combinando facilmente com tudo, desde roupas esportivas até jeans. O cabedal leve é forrado para conforto, enquanto o amortecimento Cloudfoam garante que você se mova confortavelmente.",
-        price: {
-          amount: 5555,
-          currency: "INR"
+        {
+            name: "Espuma de nuvem 18 retrô",
+            description: "Descrição do Espuma de nuvem 18 retrô.",
+            price: { amount: 5555, currency: "INR" },
+            image: img18,
+            inventory: { available: 45, sold: 6 }
         },
-        image: img18,
-        inventory: {
-          available: 45,
-          sold: 6
-        }
-      },
-      {
-        name: "DECODE ME",
-        description: "Deslize seus pés nesses tênis da Mercedes - AMG Petronas Formula 1 Team e leve sua paixão por corridas com você aonde quer que vá. A mistura de camurça e nylon dá à parte superior uma textura e estilo únicos, feitos para durar. As 3 listras na parte superior em cores da equipe e o logotipo da equipe na aba do calcanhar mantêm o visual oficial.",
-        price: {
-          amount: 6666,
-          currency: "INR"
+        {
+            name: "DECODIFIQUE-ME",
+            description: "Descrição do DECODIFIQUE-ME.",
+            price: { amount: 6666, currency: "INR" },
+            image: img19,
+            inventory: { available: 55, sold: 7 }
         },
-        image: img19,
-        inventory: {
-          available: 55,
-          sold: 7
-        }
-      },
-      {
-        name: "Switch Run Cyan",
-        description: "Combinando estilo com detalhes sem distrações, a última linha de essenciais para corrida da adidas fará você parecer tão bem quanto se sente enquanto percorre quilômetros. Assim, você pode se concentrar no mais importante: aproveitar a corrida.",
-        price: {
-          amount: 20999,
-          currency: "INR"
+        {
+            name: "Alternar execução ciano",
+            description: "Descrição do Alternar execução ciano.",
+            price: { amount: 20999, currency: "INR" },
+            image: img20,
+            inventory: { available: 65, sold: 8 }
         },
-        image: img20,
-        inventory: {
-          available: 65,
-          sold: 8
-        }
-      },
-      {
-        name: "Eazy Beleciaga",
-        isSpecial: true,
-        description: "A Balenciaga não se responsabiliza por qualquer responsabilidade em caso de não conformidade do consumidor com as instruções de cuidados e manuseio acima mencionadas ou uso inadequado. Para mais informações ou assistência, entre em contato com o atendimento ao cliente da Balenciaga.",
-        price: {
-          amount: 81999,
-          currency: "INR"
+        {
+            name: "Eazy Beleciaga",
+            description: "Descrição do Eazy Beleciaga.",
+            price: { amount: 81999, currency: "INR" },
+            image: img21,
+            inventory: { available: 75, sold: 9 }
         },
-        image: img21,
-        inventory: {
-          available: 75,
-          sold: 9
-        }
-      },
-      {
-        name: "Produto 22",
-        isSpecial: true,
-        description: "Devoluções e trocas gratuitas dentro de 30 dias a partir da data de entrega. Você pode trocar seu produto apenas por um tamanho ou cor diferente. Exceções se aplicam a produtos. Para mais informações.",
-        price: {
-          amount: 92999,
-          currency: "INR"
+        {
+            name: "Produto 22",
+            description: "Descrição do Produto 22.",
+            price: { amount: 92999, currency: "INR" },
+            image: img22,
+            inventory: { available: 85, sold: 10 }
         },
-        image: img22,
-        inventory: {
-          available: 85,
-          sold: 10
-        }
-      },
-      {
-        name: "GUCCI B3D",
-        description: "Na coleção primavera-verão de 2025, este tênis Gucci cub3d combina materiais e estruturas inovadoras. O cabedal é feito de uma mistura de Demetra e malha, com detalhes criados usando tecnologia de alta frequência, enquanto a sola combina um interior preenchido com EVA e TPU do lado de fora, finalizado com um padrão G interligado em 3D.",
-        price: {
-          amount: 23999,
-          currency: "INR"
+        {
+            name: "GUCCI B3D",
+            description: "Descrição do GUCCI B3D.",
+            price: { amount: 23999, currency: "INR" },
+            image: img23,
+            inventory: { available: 95, sold: 11 }
         },
-        image: img23,
-        inventory: {
-          available: 95,
-          sold: 11
-        }
-      },
-      {
-        name: "Becca Mens 6253BA",
-        description: "Amortecimento forte para reduzir o impacto. Patch de suspensão unibody. Um impulso forte com excelente movimento para frente e aderência firme, você não precisa se preocupar com o desgaste.",
-        price: {
-          amount: 10000,
-          currency: "INR"
+        {
+            name: "Becca Masculino 6253BA",
+            description: "Descrição do Becca Masculino 6253BA.",
+            price: { amount: 10000, currency: "INR" },
+            image: img24,
+            inventory: { available: 105, sold: 12 }
         },
-        image: img24,
-        inventory: {
-          available: 105,
-          sold: 12
-        }
-      },
-      {
-        name: "Dominator C.10",
-        description: "Leves e respiráveis, esses tênis masculinos de corrida são projetados com materiais duráveis e uma tecnologia de amarração fácil de usar, tornando-os ideais para correr, caminhar e praticar esportes. O material superior respirável e a sola leve de Phylon garantem conforto durante a corrida.",
-        price: {
-          amount: 7990,
-          currency: "INR"
+        {
+            name: "Dominador C.10",
+            description: "Descrição do Dominador C.10.",
+            price: { amount: 7990, currency: "INR" },
+            image: img25,
+            inventory: { available: 115, sold: 13 }
         },
-        image: img25,
-        inventory: {
-          available: 115,
-          sold: 13
-        }
-      },
-      {
-        name: "CEMENTIVE MENS",
-        description: "Sola de memória para maior amortecimento e conforto.",
-        price: {
-          amount: 8001,
-          currency: "INR"
+        {
+            name: "HOMENS CEMENTIVOS",
+            description: "Descrição do HOMENS CEMENTIVOS.",
+            price: { amount: 8001, currency: "INR" },
+            image: img26,
+            inventory: { available: 125, sold: 14 }
         },
-        image: img26,
-        inventory: {
-          available: 125,
-          sold: 14
-        }
-      },
-      {
-        name: "Red Chiesf Genune ATAG",
-        description: "FÁCIL DE COMBINAR - Esses tênis masculinos têm um design clássico de combinação de cores, combinando facilmente com roupas. Você pode usar esses tênis com jeans, calças casuais, calças curtas e bermudas. Perfeito para qualquer ocasião.",
-        price: {
-          amount: 2799,
-          currency: "INR"
+        {
+            name: "Chefe Vermelho Genune ATAG",
+            description: "Descrição do Chefe Vermelho Genune ATAG.",
+            price: { amount: 2799, currency: "INR" },
+            image: img27,
+            inventory: { available: 135, sold: 15 }
         },
-        image: img27,
-        inventory: {
-          available: 135,
-          sold: 15
-        }
-      },
-      {
-        name: "Criterian Mens 28",
-        description: "Conforto: A construção flexível do Derby oferece a liberdade de se mover confortavelmente. Palmilha leve e acolchoada para conforto e absorção de impactos.",
-        price: {
-          amount: 28966,
-          currency: "INR"
+        {
+            name: "Critério Masculino 28",
+            description: "Descrição do Critério Masculino 28.",
+            price: { amount: 28966, currency: "INR" },
+            image: img28,
+            inventory: { available: 145, sold: 16 }
         },
-        image: img28,
-        inventory: {
-          available: 145,
-          sold: 16
-        }
-      },
-      {
-        name: "Sneaker 6783",
-        description: "Os produtos Gucci são feitos de materiais cuidadosamente selecionados. Por favor, trate-os com cuidado para prolongar a vida útil do produto. Proteja-os da luz solar direta, calor e chuva. Se molhar, seque imediatamente com um pano macio.",
-        price: {
-          amount: 45699,
-          currency: "INR"
+        {
+            name: "Tênis 6783",
+            description: "Descrição do Tênis 6783.",
+            price: { amount: 45699, currency: "INR" },
+            image: img29,
+            inventory: { available: 155, sold: 17 }
         },
-        image: img29,
-        inventory: {
-          available: 155,
-          sold: 17
+        {
+            name: "GUCCI 3DR CUB",
+            description: "Descrição do GUCCI 3DR CUB.",
+            price: { amount: 30999, currency: "INR" },
+            image: img30,
+            inventory: { available: 165, sold: 18 }
         }
-      },
-      {
-        name: "GUCCI 3DR CUB",
-        description: "Na coleção primavera-verão de 2025, este tênis Gucci cub3d combina materiais e estruturas inovadoras. O cabedal é feito de uma mistura de Demetra e malha, com detalhes criados usando tecnologia de alta frequência, enquanto a sola combina um interior preenchido com EVA e TPU do lado de fora, finalizado com um padrão G interligado em 3D.",
-        price: {
-          amount: 30999,
-          currency: "INR"
-        },
-        image: img30,
-        inventory: {
-          available: 165,
-          sold: 18
-        }
-      }
-    ]
-  };
+    ],
+};
 
   export const translationsHindi = {
-    meta:{
+    meta: {
       available: "उपलब्ध",
       sold: 'बिका हुआ',
+      title: 'शू वर्ल्ड में आपका स्वागत है!',
+      contact:{
+        name:'उपयोग करने के लिए पहुंचें और नमस्ते कहें!',
+      },
+      aboutContent: "हम एक समर्पित फुटवियर पुनर्विक्रय संगठन हैं जो अपने ग्राहकों को नवीनतम स्टाइल प्रदान करने पर केंद्रित है। हमारे संग्रह में लोकप्रिय ब्रांड शामिल हैं जो वर्तमान रुझानों को प्रतिबिंबित करते हैं, प्रत्येक जोड़ी में गुणवत्ता और आराम सुनिश्चित करते हैं। हमारा उपयोगकर्ता-अनुकूल मंच खरीदारी को आसान और आनंददायक बनाता है। हमारा मानना ​​है कि जूते स्टाइल की एक व्यक्तिगत अभिव्यक्ति है, और हम आपको सही जोड़ी ढूंढने में मदद करने का प्रयास करते हैं जो आपके व्यक्तित्व के अनुरूप हो। हमारे क्यूरेटेड चयन की खोज में हमारे साथ जुड़ें और गुणवत्ता और सेवा में अंतर का अनुभव करें जो हमें अलग करता है।",
     },
     products: [
       {
-        name: "Nike Dunk Low Retro",
+        name: "नाइके डंक लो रेट्रो",
         description: "पार्केट के लिए बनाया गया, लेकिन सड़कों पर लाया गया, Nike Dunk Low Retro स्पष्ट ओवरले और मूल टीम रंगों के साथ लौटता है। यह बास्केटबॉल आइकन 80 के दशक के माहौल को प्रीमियम लेदर के ऊपरी भाग के साथ लाता है, जो देखने में अच्छा लगता है और पहनने में और भी अच्छा होता है। आधुनिक फुटवियर तकनीक 21वीं सदी में आराम लाने में मदद करती है।",
         price: {
           amount: 8295,
@@ -3695,7 +2827,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low Retro SE",
+        name: "नाइके डंक लो रेट्रो एसई",
         description: "क्लासिक पर हमेशा भरोसा किया जा सकता है। Dunk Low Retro एक मोनोक्रोम लुक को प्रीमियम सामग्री और नरम पैडिंग के साथ जोड़ता है, जो गेम-चेंजिंग आराम प्रदान करता है। संभावनाएं अनंत हैं — आप अपने डंक को कैसे पहनेंगे?",
         price: {
           amount: 10795,
@@ -3708,7 +2840,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low Retro SE S2",
+        name: "नाइकी डंक लो रेट्रो एसई एस2",
         description: "क्लासिक पर हमेशा भरोसा किया जा सकता है। Dunk Low Retro एक मोनोक्रोम लुक को प्रीमियम सामग्री और नरम पैडिंग के साथ जोड़ता है, जो गेम-चेंजिंग आराम प्रदान करता है। संभावनाएं अनंत हैं — आप अपने डंक को कैसे पहनेंगे?",
         price: {
           amount: 10795,
@@ -3721,7 +2853,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low SE A#",
+        name: "नाइके डंक लो एसई ए#",
         description: "अत्यधिक बहुपरकारी, आश्चर्यजनक रूप से साफ और बहुत क्लासिक। Dunk Low को एक बेदाग खत्म करने के लिए सुडौल और चमड़े के साथ जोड़ा गया है। यह पैडेड कॉलर, हल्के कुशनिंग और रबर सोल के साथ आता है। लटकन बांधें और समुद्र तट की वाइब्स लाएं।",
         price: {
           amount: 11899,
@@ -3734,7 +2866,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike SB Dunk Low Pro",
+        name: "नाइके एसबी डंक लो प्रो",
         description: "80 के दशक का बास्केटबॉल आइकन क्लासिक विवरण और नॉस्टैल्जिक फ्लेयर के साथ लौटता है। विंटेज स्टाइल को सड़कों पर लाते हुए, इसका पैडेड लो-कट कॉलर आपको कहीं भी अपने गेम का आनंद लेने की अनुमति देता है।",
         price: {
           amount: 5999,
@@ -3747,7 +2879,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low",
+        name: "नाइके डंक लो",
         isSpecial: true,
         description: "80 के दशक का आइकन क्लासिक विवरण और नॉस्टैल्जिक फ्लेयर के साथ लौटता है। विंटेज स्टाइल को सड़कों पर लाते हुए, इसका पैडेड कॉलर आपको कहीं भी अपने गेम का आनंद लेने की अनुमति देता है।",
         price: {
@@ -3761,7 +2893,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low 34",
+        name: "नाइके डंक लो 34",
         description: "Dunk की जड़ें एक विश्वविद्यालय के स्नीकर्स के रूप में मान्यता प्राप्त करते हुए, Be True To Your School पैक मूल विज्ञापन अभियान से प्रेरित है। रंगों का प्रतिनिधित्व करते हैं शीर्ष विश्वविद्यालय, जबकि साफ चमड़ा सही चमक के साथ है, जो निश्चित जीत लाता है। जूते पहनें और विश्वविद्यालय की भावना दिखाएं। क्या आप तैयार हैं?",
         price: {
           amount: 7999,
@@ -3774,7 +2906,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Hilander Pro पुरुषों के लिए",
+        name: "नाइके हिलैंडर प्रो पुरुषों के लिए",
         description: "क्लासिक पर हमेशा भरोसा किया जा सकता है। यह रंग-ब्लॉक डिज़ाइन चमड़े और सुडौल को जोड़ता है, नरम पैडिंग के साथ गेम-चेंजिंग आराम प्रदान करता है। संभावनाएं अनंत हैं — आप अपने डंक को कैसे पहनेंगे?",
         price: {
           amount: 8999,
@@ -3787,7 +2919,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Retro Premium 1980",
+        name: "नाइके रेट्रो प्रीमियम 1980",
         description: "क्लासिक पर हमेशा भरोसा किया जा सकता है। यह प्रीमियम संस्करण Dunk Low मिश्रित सामग्रियों के साथ पूरी तरह से काले ऊपरी भाग को जोड़ता है, जिसे पहनने में आसानी और आराम प्रदान करता है। संभावनाएं अनंत हैं — आप अपने डंक को कैसे पहनेंगे?",
         price: {
           amount: 9999,
@@ -3800,7 +2932,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Jordans सीमित संस्करण",
+        name: "नाइके जॉर्डन सीमित संस्करण",
         description: "क्लासिक पर हमेशा भरोसा किया जा सकता है। Dunk Low अपने आइकॉनिक रंग-ब्लॉकिंग को प्रीमियम सामग्रियों और नरम पैडिंग के साथ जोड़ता है, जो गेम-चेंजिंग आराम प्रदान करता है। संभावनाएं अनंत हैं — आप अपने डंक को कैसे पहनेंगे?",
         price: {
           amount: 10999,
@@ -3813,7 +2945,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Samba OG",
+        name: "सांबा ओजी",
         description: "पिच पर जन्मा, Samba एक कालातीत स्टाइल आइकन है। यह सिल्हूट एक कम प्रोफाइल, नरम चमड़े के ऊपरी भाग, सुडौल ओवरले और रबर सोल के साथ अपने विरासत के प्रति वफादार है, जो हर किसी की अलमारी में एक अनिवार्य वस्तु बनाता है - पिच पर और बाहर।",
         price: {
           amount: 11999,
@@ -3826,7 +2958,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Fair Run 4",
+        name: "फेयर रन 4",
         description: "आपकी खुशी के लिए जूते। ये adidas Torsion सिस्टम वाले जूते बहुत सारी व्यक्तिगतता रखते हैं। चिकना ऊपरी भाग आराम और लचीलापन प्रदान करता है, जबकि टेक्सटाइल लाइनिंग और रबर आउटसोल कुशनिंग और स्थिरता का सही मिश्रण प्रदान करते हैं। इन ध्यान खींचने वाले स्नीकर्स में साहसिक बनें।",
         price: {
           amount: 12999,
@@ -3839,7 +2971,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Vent Shoot '96",
+        name: "वेंट शूट '96",
         description: "यह उत्पाद 100% पुनर्नवीनीकरण सामग्री से बना है। पहले से बनाए गए सामग्रियों का पुन: उपयोग करके, हम अपशिष्ट और सीमित संसाधनों पर निर्भरता को कम करने में मदद करते हैं, और उत्पादों के कार्बन फुटप्रिंट को कम करते हैं।",
         price: {
           amount: 799,
@@ -3852,7 +2984,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "MPM 78",
+        name: "एमपीएम 78",
         description: "आपकी खुशी के लिए जूते। ये adidas Torsion सिस्टम वाले जूते बहुत सारी व्यक्तिगतता रखते हैं। चिकना ऊपरी भाग आराम और लचीलापन प्रदान करता है, जबकि टेक्सटाइल लाइनिंग और रबर आउटसोल कुशनिंग और स्थिरता का सही मिश्रण प्रदान करते हैं। इन ध्यान खींचने वाले स्नीकर्स में साहसिक बनें।",
         price: {
           amount: 4499,
@@ -3865,7 +2997,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Asturned Run",
+        name: "चकित होकर भागना",
         description: "स्वच्छता बनाए रखें - चाहे आप हमारे उत्पाद को कितना भी पसंद करें, उन शब्दों का उपयोग न करें जो आप अपनी दादी के साथ नहीं करेंगे। उत्पाद पर ध्यान केंद्रित करें - यदि आपके पास उत्पाद से संबंधित कोई समस्या है (जैसे डिलीवरी का समय, मूल्य), तो कृपया इसे हमारे ग्राहक सेवा टीम को भेजें ताकि वे आपकी मदद कर सकें।",
         price: {
           amount: 4040,
@@ -3878,7 +3010,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Grand Court",
+        name: "ग्रैंड कोर्ट",
         description: "एक श्रृंखला पुनर्नवीनीकरण सामग्रियों से बनाई गई है, यह ऊपरी भाग कम से कम 50% पुनर्नवीनीकरण सामग्री शामिल करता है।",
         price: {
           amount: 16999,
@@ -3891,7 +3023,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "ULTRA BOOST 1.0",
+        name: "अल्ट्रा बूस्ट 1.0",
         description: "पार्क में टहलने से लेकर दोस्तों के साथ सप्ताहांत की दौड़ तक, ये adidas Ultraboost 1.0 जूते आपको आरामदायक बनाए रखने के लिए डिज़ाइन किए गए हैं। adidas PRIMEKNIT ऊपरी भाग आपके पैरों को कोमलता से लपेटता है, जबकि BOOST मध्य तल में पहले कदम से लेकर अंतिम मील तक कुशन प्रदान करता है।",
         price: {
           amount: 9999,
@@ -3904,7 +3036,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Cloud Foam 18 Retro",
+        name: "क्लाउड फोम 18 रेट्रो",
         description: "व्यस्त दिनों के लिए आपका आदर्श विकल्प। ये adidas स्नीकर्स स्टाइलिश और आधुनिक हैं, जो आसानी से किसी भी चीज़ के साथ मिल जाते हैं, खेल के कपड़ों से लेकर जींस तक। हल्का ऊपरी भाग आराम के लिए अस्तर किया गया है, जबकि Cloudfoam कुशनिंग आपको आराम से चलने में मदद करती है।",
         price: {
           amount: 5555,
@@ -3917,7 +3049,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "DECODE ME",
+        name: "मुझे डिकोड करें",
         description: "इन जूतों को पहनें जो Mercedes - AMG Petronas Formula 1 Team से हैं और अपनी रेसिंग की दीवानगी को अपने साथ ले जाएं। सुडौल और नायलॉन का मिश्रण ऊपरी भाग को अद्वितीय बनावट और शैली देता है, जो लंबे समय तक चलने के लिए बनाया गया है। टीम के रंगों में 3 धारियाँ और एड़ी के टैब पर टीम का लोगो इसे आधिकारिक लुक बनाए रखते हैं।",
         price: {
           amount: 6666,
@@ -3930,7 +3062,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Switch Run Cyan",
+        name: "स्विच रन सियान",
         description: "शैली को अव्यवस्थित करने वाले विवरणों के साथ मिलाते हुए, adidas की नवीनतम रनिंग आवश्यकताएँ आपको उतना अच्छा दिखने के लिए डिज़ाइन की गई हैं जितना आप महसूस करते हैं। ताकि आप सबसे महत्वपूर्ण बात पर ध्यान केंद्रित कर सकें: दौड़ने का आनंद लेना।",
         price: {
           amount: 20999,
@@ -3943,7 +3075,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Eazy Beleciaga",
+        name: "यीज़ी बालेनियागा",
         isSpecial: true,
         description: "Balenciaga किसी भी जिम्मेदारी से इनकार करता है यदि उपभोक्ता ऊपर दिए गए देखभाल और हैंडलिंग निर्देशों का पालन नहीं करता है या गलत तरीके से उपयोग करता है। अधिक जानकारी या सहायता के लिए, कृपया Balenciaga के ग्राहक सेवा से संपर्क करें।",
         price: {
@@ -3971,7 +3103,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "GUCCI B3D",
+        name: "गुच्ची बी3डी",
         description: "2025 की स्प्रिंग-समर कलेक्शन में, यह Gucci cub3d स्नीकर्स नवीनतम सामग्रियों और संरचनाओं को जोड़ता है। ऊपरी भाग Demetra और मेष का मिश्रण है, जिसमें उच्च-आवृत्ति तकनीक से बने विवरण हैं, जबकि सोल EVA भरे आंतरिक और TPU के बाहरी को जोड़ती है, 3D इंटरलॉकिंग G पैटर्न के साथ पूरा किया गया है।",
         price: {
           amount: 23999,
@@ -3984,7 +3116,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Becca Mens 6253BA",
+        name: "बेक्का मेन्स 6253बीए",
         description: "प्रभाव को कम करने के लिए मजबूत कुशनिंग। यूनिबॉडी सस्पेंशन बैलेंस पैच। उत्कृष्ट आगे बढ़ने के साथ मजबूत पकड़, आपको घिसने की चिंता नहीं करनी चाहिए।",
         price: {
           amount: 10000,
@@ -3997,7 +3129,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Dominator C.10",
+        name: "डॉमिनेटर सी.10",
         description: "हल्के और सांस लेने योग्य, ये पुरुषों के दौड़ने वाले जूते टिकाऊ सामग्रियों और उपयोग में आसान लेसिंग तकनीक के साथ डिज़ाइन किए गए हैं, जो उन्हें दौड़ने, चलने और खेल के लिए आदर्श बनाते हैं। सांस लेने योग्य ऊपरी सामग्री और हल्की Phylon सोल दौड़ते समय आराम सुनिश्चित करती है।",
         price: {
           amount: 7990,
@@ -4010,7 +3142,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE MENS",
+        name: "सीमेंटिव पुरुष",
         description: "अधिक कुशनिंग और आराम के लिए मेमोरी फोम इनसोल।",
         price: {
           amount: 8001,
@@ -4023,7 +3155,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Red Chiesf Genune ATAG",
+        name: "रेड चीफ जेन्यून एटीएजी",
         description: "मिलाने में आसान - ये पुरुषों के जूते एक क्लासिक रंग संयोजन डिजाइन के साथ हैं, जो कपड़ों के साथ आसानी से मिल जाते हैं। आप इन जूतों को जींस, कैजुअल पैंट, क्रॉप्ड पैंट और शॉर्ट्स के साथ पहन सकते हैं। किसी भी मौके के लिए आदर्श।",
         price: {
           amount: 2799,
@@ -4036,7 +3168,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Criterian Mens 28",
+        name: "मानदंड पुरुष 28",
         description: "आराम: फ्लेक्सिबल डर्बी निर्माण आपको आराम से चलने की स्वतंत्रता देता है। आराम और प्रभाव अवशोषण के लिए हल्का कुशन वाला फोम इनसोल।",
         price: {
           amount: 28966,
@@ -4049,7 +3181,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Sneaker 6783",
+        name: "स्नीकर 6783",
         description: "Gucci उत्पाद सावधानीपूर्वक चुने गए सामग्रियों से बने होते हैं। कृपया उत्पाद की उम्र बढ़ाने के लिए सावधानी से व्यवहार करें। सीधे धूप, गर्मी और बारिश से बचाएं। अगर गीला हो जाए, तो तुरंत एक नरम कपड़े से सुखाएं।",
         price: {
           amount: 45699,
@@ -4062,7 +3194,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "GUCCI 3DR CUB",
+        name: "गुच्ची 3डीआर शावक",
         description: "2025 की स्प्रिंग-समर कलेक्शन में, यह Gucci cub3d स्नीकर्स नवीनतम सामग्रियों और संरचनाओं को जोड़ता है। ऊपरी भाग Demetra और मेष का मिश्रण है, जिसमें उच्च-आवृत्ति तकनीक से बने विवरण हैं, जबकि सोल EVA भरे आंतरिक और TPU के बाहरी को जोड़ती है, 3D इंटरलॉकिंग G पैटर्न के साथ पूरा किया गया है।",
         price: {
           amount: 30999,
@@ -4078,13 +3210,18 @@ export const translationsGerman = {
   };
 
   export const translationsKorean = {
-    meta:{
+    meta: {
       available: "사용 가능",
       sold: '판매된',
+      title: '신발 세계에 오신 것을 환영합니다!',
+      contact:{
+        name:'사용하려면 손을 뻗어 인사하세요!',
+      },
+      aboutContent: "우리는 고객에게 최신 스타일을 제공하는 데 중점을 둔 신발 재판매 전담 조직입니다. 우리 컬렉션에는 현재 트렌드를 반영하는 인기 브랜드가 포함되어 있어 모든 쌍의 품질과 편안함을 보장합니다. 우리의 사용자 친화적인 플랫폼은 쇼핑을 쉽고 즐겁게 만듭니다. 우리는 신발이 개인적인 스타일의 표현이라고 믿으며, 귀하의 개성에 맞는 완벽한 신발을 찾을 수 있도록 최선을 다하고 있습니다. 엄선된 셀렉션을 살펴보고 우리를 차별화하는 품질과 서비스의 차이를 경험해 보세요.",
     },
     products: [
       {
-        name: "Nike Dunk Low Retro",
+        name: "나이키 덩크 로우 레트로",
         description: "하드우드용으로 제작되었지만 거리로 가져온 Nike Dunk Low Retro는 선명한 오버레이와 원래 팀 색상으로 돌아옵니다. 이 농구 아이콘은 프리미엄 가죽으로 된 상단으로 80년대의 분위기를 전달하며, 보기에도 좋고 착용감도 뛰어납니다. 현대의 신발 기술은 21세기에 편안함을 가져오는 데 도움을 줍니다.",
         price: {
           amount: 8295,
@@ -4097,7 +3234,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low Retro SE",
+        name: "나이키 덩크 로우 레트로 SE",
         description: "클래식은 항상 믿을 수 있습니다. Dunk Low Retro는 모노크롬 룩을 프리미엄 소재와 부드러운 패딩으로 결합하여 게임을 바꾸는 편안함을 제공합니다. 가능성은 무한합니다 — 당신은 어떻게 덩크를 신을 건가요?",
         price: {
           amount: 10795,
@@ -4110,7 +3247,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low Retro SE S2",
+        name: "나이키 덩크 로우 레트로 SE S2",
         description: "클래식은 항상 믿을 수 있습니다. Dunk Low Retro는 모노크롬 룩을 프리미엄 소재와 부드러운 패딩으로 결합하여 게임을 바꾸는 편안함을 제공합니다. 가능성은 무한합니다 — 당신은 어떻게 덩크를 신을 건가요?",
         price: {
           amount: 10795,
@@ -4123,7 +3260,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low SE A#",
+        name: "나이키 덩크 로우 SE A#",
         description: "매우 다재다능하고, 놀랍도록 깨끗하며, 매우 클래식합니다. Dunk Low는 스웨이드와 가죽을 결합하여 완벽한 마감을 제공합니다. 패딩된 칼라, 가벼운 쿠션, 고무 밑창이 함께 제공됩니다. 신발끈을 묶고 해변의 분위기를 가져오세요.",
         price: {
           amount: 11899,
@@ -4136,7 +3273,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike SB Dunk Low Pro",
+        name: "나이키 SB 덩크 로우 프로",
         description: "80년대 농구 아이콘이 클래식한 디테일과 향수를 불러일으키는 스타일로 돌아옵니다. 빈티지 스타일을 거리로 가져오며, 패딩된 로우컷 칼라가 있으면 어디서든 편안하게 게임을 즐길 수 있습니다.",
         price: {
           amount: 5999,
@@ -4149,7 +3286,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low",
+        name: "나이키 덩크 로우",
         isSpecial: true,
         description: "80년대 아이콘이 클래식한 디테일과 향수를 불러일으키는 스타일로 돌아옵니다. 빈티지 스타일을 거리로 가져오며, 패딩된 칼라가 있으면 어디서든 편안하게 게임을 즐길 수 있습니다.",
         price: {
@@ -4163,7 +3300,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Dunk Low 34",
+        name: "나이키 덩크 로우 34",
         description: "Dunk의 뿌리를 대학 팀의 스니커즈로 인정하며, Be True To Your School 팩은 원래 광고 캠페인에서 영감을 받았습니다. 색상은 최고의 대학을 나타내며, 깨끗한 가죽은 완벽한 광택을 가지고 있어 확실한 승리를 가져옵니다. 신발을 신고 대학의 정신을 보여주세요. 준비되셨나요?",
         price: {
           amount: 7999,
@@ -4176,7 +3313,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Hilander Pro 남성용",
+        name: "나이키 힐랜더 프로 남성용",
         description: "클래식은 항상 믿을 수 있습니다. 이 색상 블록 디자인은 가죽과 스웨이드를 결합하여 부드러운 패딩으로 게임을 바꾸는 편안함을 제공합니다. 가능성은 무한합니다 — 당신은 어떻게 덩크를 신을 건가요?",
         price: {
           amount: 8999,
@@ -4189,7 +3326,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Retro Premium 1980",
+        name: "나이키 레트로 프리미엄 1980",
         description: "클래식은 항상 믿을 수 있습니다. 이 프리미엄 버전의 Dunk Low는 혼합 소재와 완전히 검은색 상단을 결합하여 착용하기 쉬운 모습과 편안함을 제공합니다. 가능성은 무한합니다 — 당신은 어떻게 덩크를 신을 건가요?",
         price: {
           amount: 9999,
@@ -4202,7 +3339,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Jordans 한정판",
+        name: "나이키 조던 한정판",
         description: "클래식은 항상 믿을 수 있습니다. Dunk Low는 아이코닉한 색상 블로킹을 프리미엄 소재와 부드러운 패딩으로 결합하여 게임을 바꾸는 편안함을 제공합니다. 가능성은 무한합니다 — 당신은 어떻게 덩크를 신을 건가요?",
         price: {
           amount: 10999,
@@ -4215,7 +3352,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Samba OG",
+        name: "삼바 OG",
         description: "피치에서 태어난 Samba는 거리 스타일의 시대를 초월한 아이콘입니다. 이 실루엣은 낮은 프로필의 부드러운 가죽 상단, 스웨이드 오버레이 및 고무 밑창으로 그 유산에 충실하며, 모든 사람의 옷장에 필수 아이템이 됩니다 - 피치 위와 아래 모두에서.",
         price: {
           amount: 11999,
@@ -4228,7 +3365,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Fair Run 4",
+        name: "페어런 4",
         description: "당신의 즐거움을 위한 신발. 이 아디다스 Torsion 시스템 신발은 많은 개성을 가지고 있습니다. 매끄러운 상단은 편안함과 유연성을 제공하며, 텍스타일 라이닝과 고무 아웃솔은 쿠셔닝과 안정성의 완벽한 조합을 제공합니다. 이 눈에 띄는 스니커즈로 대담하게 나아가세요.",
         price: {
           amount: 12999,
@@ -4241,7 +3378,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Vent Shoot '96",
+        name: "벤트 슛 '96",
         description: "이 제품은 100% 재활용 소재로 만들어졌습니다. 이미 만들어진 소재를 재사용함으로써, 우리는 폐기물과 제한된 자원에 대한 의존도를 줄이고, 우리가 생산하는 제품의 탄소 발자국을 줄이는 데 도움을 줍니다.",
         price: {
           amount: 799,
@@ -4267,7 +3404,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Asturned Run",
+        name: "기절한 달리기",
         description: "깨끗함을 유지하세요 - 당신이 우리의 제품을 얼마나 사랑하든, 당신의 할머니와 사용하지 않을 단어는 사용하지 마세요. 제품에 집중하세요 - 제품 자체와 관련이 없는 문제가 있다면(예: 배송 시간, 가격), 고객 서비스 팀에 연락하여 도움을 받을 수 있도록 하세요.",
         price: {
           amount: 4040,
@@ -4280,7 +3417,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Grand Court",
+        name: "그랜드 코트",
         description: "재활용 소재로 제작된 이 상단은 최소 50%의 재활용 소재를 포함하고 있습니다.",
         price: {
           amount: 16999,
@@ -4293,7 +3430,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "ULTRA BOOST 1.0",
+        name: "울트라 부스트 1.0",
         description: "공원에서의 산책부터 친구들과의 주말 달리기까지, 이 아디다스 Ultraboost 1.0 신발은 당신을 편안하게 유지하도록 설계되었습니다. 아디다스 PRIMEKNIT 상단은 당신의 발을 부드럽게 감싸고, BOOST는 중간 밑창에서 첫 발부터 마지막 마일까지 쿠션을 제공합니다.",
         price: {
           amount: 9999,
@@ -4306,7 +3443,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Cloud Foam 18 Retro",
+        name: "클라우드 폼 18 레트로",
         description: "바쁜 날을 위한 완벽한 선택입니다. 이 아디다스 스니커즈는 스타일리시하고 현대적이며, 스포츠 의류부터 청바지까지 모든 것과 쉽게 조화를 이룹니다. 가벼운 상단은 편안함을 위해 안감 처리되어 있으며, Cloudfoam 쿠션이 당신을 편안하게 움직이게 합니다.",
         price: {
           amount: 5555,
@@ -4319,7 +3456,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "DECODE ME",
+        name: "나를 해독하다",
         description: "이 아디다스 Mercedes - AMG Petronas Formula 1 Team 신발을 신고 어디를 가든지 레이싱 팬의 열정을 가져가세요. 스웨이드와 나일론의 혼합이 상단에 독특한 질감과 스타일을 부여하며, 내구성을 위해 제작되었습니다. 팀 색상의 3줄과 힐탭의 팀 로고가 공식적인 룩을 유지합니다.",
         price: {
           amount: 6666,
@@ -4332,7 +3469,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Switch Run Cyan",
+        name: "전환 실행 청록색",
         description: "스타일과 방해받지 않는 세부 사항을 결합하여 아디다스의 최신 러닝 필수품은 당신이 느끼는 것만큼 잘 보이도록 설계되었습니다. 그렇게 하면 가장 중요한 것에 집중할 수 있습니다: 달리는 것을 즐기는 것입니다.",
         price: {
           amount: 20999,
@@ -4345,7 +3482,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Eazy Beleciaga",
+        name: "이지 발렌시아가",
         isSpecial: true,
         description: "Balenciaga는 소비자가 위에 언급된 관리 및 취급 지침을 따르지 않거나 부적절하게 사용한 경우 어떠한 책임도 지지 않습니다. 추가 정보나 도움이 필요하면 Balenciaga 고객 서비스에 문의하십시오.",
         price: {
@@ -4373,7 +3510,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "GUCCI B3D",
+        name: "구찌 B3D",
         description: "2025년 봄-여름 컬렉션에서 이 구찌 cub3d 스니커즈는 혁신적인 소재와 구조를 결합합니다. 상단은 Demetra와 메쉬의 혼합으로 되어 있으며, 고주파 기술로 만들어진 세부 사항이 특징이며, 밑창은 EVA 충전 내부와 TPU 외부를 결합하여 3D 인터로킹 G 패턴으로 완성됩니다.",
         price: {
           amount: 23999,
@@ -4386,7 +3523,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Becca Mens 6253BA",
+        name: "베카 남성용 6253BA",
         description: "충격을 줄이기 위한 강력한 서스펜션. 유니바디 서스펜션 밸런스 패치. 뛰어난 전진 모멘텀과 확실한 그립으로 마모에 대해 걱정할 필요가 없습니다.",
         price: {
           amount: 10000,
@@ -4399,7 +3536,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Dominator C.10",
+        name: "도미네이터 C.10",
         description: "가볍고 통기성이 좋은 이 남성용 러닝화는 내구성 있는 소재와 쉽게 착용할 수 있는 레이스업 기술로 설계되어 조깅, 걷기 및 스포츠에 적합합니다. 통기성 있는 상단 소재와 가벼운 Phylon 아웃솔이 러닝 중 편안함을 보장합니다.",
         price: {
           amount: 7990,
@@ -4412,7 +3549,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE MENS",
+        name: "시멘트 남성용",
         description: "더 많은 쿠셔닝과 편안함을 제공하는 메모리 폼 인솔.",
         price: {
           amount: 8001,
@@ -4425,7 +3562,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Red Chiesf Genune ATAG",
+        name: "빨간 Chiesf Genune A",
         description: "쉽게 조합할 수 있는 - 이 남성 신발은 클래식한 색상 조합 디자인으로, 옷과 쉽게 조화를 이룹니다. 청바지, 캐주얼 바지, 크롭 바지, 반바지와 함께 신을 수 있습니다. 모든 경우에 적합합니다.",
         price: {
           amount: 2799,
@@ -4438,7 +3575,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Criterian Mens 28",
+        name: "기준 남성 28",
         description: "편안함: 유연한 더비 구조는 편안하게 움직일 수 있는 자유를 제공합니다. 편안함과 충격 흡수를 위한 가벼운 쿠션 폼 인솔.",
         price: {
           amount: 28966,
@@ -4451,7 +3588,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Sneaker 6783",
+        name: "운동화 6783",
         description: "구찌 제품은 신중하게 선택된 소재로 제작됩니다. 제품의 수명을 늘리기 위해 주의 깊게 취급하십시오. 직사광선, 열, 비로부터 보호하십시오. 젖은 경우 즉시 부드러운 천으로 말리십시오.",
         price: {
           amount: 45699,
@@ -4464,7 +3601,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "GUCCI 3DR CUB",
+        name: "구찌 3DR 컵",
         description: "2025년 봄-여름 컬렉션에서 이 구찌 cub3d 스니커즈는 혁신적인 소재와 구조를 결합합니다. 상단은 Demetra와 메쉬의 혼합으로 되어 있으며, 고주파 기술로 만들어진 세부 사항이 특징이며, 밑창은 EVA 충전 내부와 TPU 외부를 결합하여 3D 인터로킹 G 패턴으로 완성됩니다.",
         price: {
           amount: 30999,
@@ -4480,13 +3617,18 @@ export const translationsGerman = {
   };
 
   export const translationsItalian = {
-    meta:{
+    meta: {
       available: "Disponibile",
       sold: 'venduto',
+      title: 'Benvenuti nel mondo delle scarpe!',
+      contact:{
+        name:"Contatta l'utente e salutalo!",
+      },
+      aboutContent: "Siamo un'organizzazione dedicata alla rivendita di calzature focalizzata sulla fornitura degli stili più recenti ai nostri clienti. La nostra collezione presenta marchi famosi che riflettono le tendenze attuali, garantendo qualità e comfort in ogni paio. La nostra piattaforma intuitiva rende lo shopping facile e divertente. Crediamo che le calzature siano un'espressione personale di stile e ci impegniamo ad aiutarti a trovare il paio perfetto che si adatta alla tua individualità. Unisciti a noi nell'esplorazione della nostra selezione curata e sperimenta la differenza di qualità e servizio che ci distingue.",
     },
     products: [
       {
-        name: "Nike Dunk Low Retro",
+        name: "Nike Dunk Low retrò",
         description: "Creato per il parquet ma portato per le strade, il Nike Dunk Low Retro torna con sovrapposizioni nitide e colori originali della squadra. Questo icona del basket porta l'atmosfera degli anni '80 con una tomaia in pelle premium che appare bella e si indossa ancora meglio. Le tecnologie moderne delle calzature aiutano a portare comfort nel 21° secolo.",
         price: {
           amount: 8295,
@@ -4591,7 +3733,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Nike Retro Premium 1980",
+        name: "Nike retrò Premium 1980",
         description: "Un classico su cui puoi sempre contare. Questa versione premium del Dunk Low combina materiali misti con una tomaia completamente nera per un look facile da indossare e comfort che dura. Le possibilità sono infinite: come indosserai i tuoi Dunk?",
         price: {
           amount: 9999,
@@ -4630,7 +3772,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Fair Run 4",
+        name: "Corsa giusta 4",
         description: "Scarpe per il tuo divertimento. Queste scarpe con il sistema Torsion di adidas hanno molta personalità. La tomaia liscia offre comfort e flessibilità, mentre la fodera in tessuto e la suola in gomma offrono la combinazione perfetta di ammortizzazione e stabilità. Sii audace con queste scarpe da ginnastica che attirano l'attenzione.",
         price: {
           amount: 12999,
@@ -4643,7 +3785,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Vent Shoot '96",
+        name: "Sfiato Spara '96",
         description: "Questo prodotto è realizzato al 100% in materiali riciclati. Riutilizzando materiali già creati, aiutiamo a ridurre i rifiuti e la dipendenza da risorse limitate, riducendo l'impronta di carbonio dei prodotti che produciamo.",
         price: {
           amount: 799,
@@ -4669,7 +3811,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Asturned Run",
+        name: "Corsa assurda",
         description: "Mantieni la pulizia - non importa quanto ami il nostro prodotto, non usare parole che non useresti con tua nonna. Concentrati sul prodotto - se hai un problema non correlato al prodotto stesso (ad esempio, tempi di consegna, prezzo), per favore contatta il nostro team di assistenza clienti affinché possano aiutarti.",
         price: {
           amount: 4040,
@@ -4682,7 +3824,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Grand Court",
+        name: "Gran Corte",
         description: "Realizzato con una serie di materiali riciclati, questa tomaia contiene almeno il 50% di contenuto riciclato.",
         price: {
           amount: 16999,
@@ -4708,7 +3850,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Cloud Foam 18 Retro",
+        name: "Nuvola Schiuma 18 Retro",
         description: "La tua scelta ideale per le giornate impegnate. Queste scarpe adidas sono eleganti e moderne, si abbinano facilmente a qualsiasi cosa, dall'abbigliamento sportivo ai jeans. La tomaia leggera è foderata per il comfort, mentre l'ammortizzazione Cloudfoam ti aiuta a muoverti comodamente.",
         price: {
           amount: 5555,
@@ -4721,7 +3863,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "DECODE ME",
+        name: "DECODIFICAMI",
         description: "Indossa queste scarpe della Mercedes - AMG Petronas Formula 1 Team e porta la tua passione per le corse ovunque tu vada. La miscela di camoscio e nylon conferisce alla parte superiore una texture e uno stile unici, progettati per durare. Le 3 strisce sulla parte superiore nei colori della squadra e il logo della squadra sul tallone mantengono un aspetto ufficiale.",
         price: {
           amount: 6666,
@@ -4734,7 +3876,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Switch Run Cyan",
+        name: "Cambia Esegui Ciano",
         description: "Combinando stile con dettagli senza distrazioni, l'ultima linea di essenziali per la corsa di adidas ti farà apparire bene quanto ti senti. In questo modo, puoi concentrarti su ciò che è più importante: divertirti a correre.",
         price: {
           amount: 20999,
@@ -4747,7 +3889,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Eazy Beleciaga",
+        name: "Yeezy Balenciaga",
         isSpecial: true,
         description: "Balenciaga non si assume alcuna responsabilità nel caso in cui il consumatore non segua le istruzioni di cura e gestione sopra menzionate o utilizzi in modo improprio. Per ulteriori informazioni o assistenza, contattare il servizio clienti Balenciaga.",
         price: {
@@ -4761,7 +3903,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Prodotto 22",
+        name: "Prodotto22",
         isSpecial: true,
         description: "Resi e scambi gratuiti entro 30 giorni dalla data di consegna. Puoi scambiare il tuo prodotto solo con una taglia o un colore diverso. Si applicano eccezioni ai prodotti. Per ulteriori informazioni.",
         price: {
@@ -4788,7 +3930,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Becca Mens 6253BA",
+        name: "Becca Uomo 6253BA",
         description: "Ammortizzazione forte per ridurre l'impatto. Patch di sospensione unibody. Un forte impulso con un ottimo movimento in avanti e una presa sicura, non devi preoccuparti dell'usura.",
         price: {
           amount: 10000,
@@ -4801,7 +3943,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Dominator C.10",
+        name: "Dominatore C.10",
         description: "Leggeri e traspiranti, questi scarponi da corsa maschili sono progettati con materiali durevoli e una tecnologia di allacciatura facile da usare, rendendoli ideali per correre, camminare e praticare sport. Il materiale superiore traspirante e la suola leggera in Phylon garantiscono comfort durante la corsa.",
         price: {
           amount: 7990,
@@ -4814,7 +3956,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "CEMENTIVE MENS",
+        name: "MENS CEMENTIVO",
         description: "Sole in memory foam per maggiore ammortizzazione e comfort.",
         price: {
           amount: 8001,
@@ -4827,7 +3969,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Red Chiesf Genune ATAG",
+        name: "Capo Rosso Genune ATAG",
         description: "FACILE DA ABBINARE - Queste scarpe da uomo hanno un design classico di abbinamento dei colori, che si abbina facilmente ai vestiti. Puoi indossare queste scarpe con jeans, pantaloni casual, pantaloni cropped e pantaloni corti. Perfette per ogni occasione.",
         price: {
           amount: 2799,
@@ -4840,7 +3982,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Criterian Mens 28",
+        name: "Criterio maschile 28",
         description: "Comfort: La costruzione flessibile del Derby ti offre la libertà di muoverti comodamente. Soletta leggera e imbottita per comfort e assorbimento degli urti.",
         price: {
           amount: 28966,
@@ -4853,7 +3995,7 @@ export const translationsGerman = {
         }
       },
       {
-        name: "Sneaker 6783",
+        name: "Scarpa da ginnastica 6783",
         description: "I prodotti Gucci sono realizzati con materiali accuratamente selezionati. Si prega di trattarli con attenzione per prolungare la durata del prodotto. Proteggere dalla luce solare diretta, dal calore e dalla pioggia. Se si bagna, asciugare immediatamente con un panno morbido.",
         price: {
           amount: 45699,

@@ -22,7 +22,6 @@ i18n
   .init({
     lng: "en",
     fallbackLng: "en",
-    // debug: true,
     returnObjects: true,
     resources: {
       en: {

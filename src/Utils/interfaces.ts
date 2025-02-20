@@ -13,3 +13,20 @@ export interface Product {
     };
   };
 
+
+  export interface CurrentDetails {
+    selectedLanguage: string;
+    selectedCurrency: string;
+    currencySymbol: string;
+    mode: string;
+    currentRate: any;
+    direction: string;
+  }
+
+  export interface ContextProps {
+    products: Product[];
+    meta?: any;
+    setCurrentDetails: (prev: CurrentDetails) => void;
+    currentDetails: CurrentDetails;
+} 
+

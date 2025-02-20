@@ -1,9 +1,6 @@
 import axios from "axios";
-// import { HomeContext } from "@/Utils/context";
-// import { useContext } from "react";
 
 const useGetCurrentCurrency = () => {
-    // const { setCurrentRate, currentRate } = useContext(HomeContext);
     
     const getCurrentCurrency = async (to: string) => {
         const res = await axios.get(`https://api.frankfurter.app/latest?amount=1&from=INR&to=${to}`);
