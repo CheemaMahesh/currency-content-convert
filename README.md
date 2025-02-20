@@ -1,17 +1,11 @@
 <h1>Set Up</h1>
 <ol>
   <li>
-    <h5>
       Clone this Repo.
-    </h5>
   </li>
-    <h5>
       Install the dependencies. use command "npm i" or "npm install".
-    </h5>
   </li>
-    <h5>
       Run command "npm run dev"
-    </h5>
   </li>
 </ol>
 
@@ -32,3 +26,14 @@
   <li>Live Translation into different Languages</li>
   <li>Live Currency Convertions</li>
 </ol>
+
+<hr />
+<h3>Future Enhancments</h3>
+<ul>
+  <li>
+    <li>Better UI/UX</li>
+  <li>Integration of Backend</li>
+  <li>Storing data in DB insted of Storing it in Front End</li>
+  </li>
+</ul>
+
