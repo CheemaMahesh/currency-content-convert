@@ -13,6 +13,8 @@ interface ContextProps {
     currentRate: any;
     direction?: string;
     meta?: any;
+    setMode: (mode: string) => void;
+    mode?: string;
 }
 
 // Provide a default value for the context
@@ -28,4 +30,6 @@ export const HomeContext = createContext<ContextProps>({
     currentRate: 1.00,
     direction: "ltr",
     meta: {},
+    setMode: () => {},
+    mode: "",
 });
