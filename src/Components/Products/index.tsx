@@ -27,7 +27,7 @@ const Products = () => {
             <div className={`flex w-full h-fit gap-12 p-6 flex-wrap justify-around items-center`}>
         {Array.isArray(products) && products?.map((product) => (
             <div 
-                className={`${currentDetails?.mode === 'Night' ? 'bg-[#000] text-white' : 'bg-white'} flex items-center w-[600px] max-[1500px]:w-[45%] min-w-[280px] max-sm:w-full max-sm:h-[300px] h-[250px] gap-5 rounded-md bg-white shadow-lg shadow-blue-300 p-4 transition-transform duration-300 transform hover:scale-110`} 
+                className={`${currentDetails?.mode === 'Night' ? 'bg-[#000] text-white' : 'bg-white'} flex items-center w-[600px] max-[1500px]:w-[45%] min-w-[280px] max-sm:w-full max-sm:h-[300px] h-[250px] gap-5 rounded-md shadow-lg shadow-blue-300 p-4 transition-transform duration-300 transform hover:scale-110`} 
                 key={product.name}
             >
                 <div>
