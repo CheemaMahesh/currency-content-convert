@@ -3,8 +3,10 @@
   <li>
       Clone this Repo.
   </li>
-      Install the dependencies. use command "npm i" or "npm install".
+     <li>
+        Install the dependencies. use command "npm i" or "npm install".
   </li>
+  <li>
       Run command "npm run dev"
   </li>
 </ol>
