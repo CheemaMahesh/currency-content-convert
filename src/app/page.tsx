@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import Products from "@/Components/Products";
 import { Product } from "@/Utils/interfaces";
 import useGetCurrentCurrency  from "@/Components/Hooks/useGetCurrentCurrecny";
+import Loader from "@/Components/Loader";
 
 export default function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
@@ -17,16 +18,17 @@ export default function Home() {
   const [currentRate, setCurrentRate] = useState<any>(1.0000);
   const { getCurrentCurrency } = useGetCurrentCurrency();
   const [direction, setDirection] = useState<string>("ltr");
-  const [meta, setMeta] = useState<any>({})
+  const [meta, setMeta] = useState<any>({});
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [mode, setMode] = useState<string>("");
 
   const { i18n, t } = useTranslation();
 
-  console.log('currentRate --11', currentRate);
-
   const getCurrentRate = async (currency: string) => {
+    setIsLoading(true);
     const rate = await getCurrentCurrency(currency);
-    console.log("rate", rate);
     setCurrentRate(rate);
+    setIsLoading(false);
   }
 
 useEffect(() => {
@@ -40,6 +42,11 @@ useEffect(() => {
 useEffect(() => {
   selectedCurrency === 'INR' ? setCurrentRate(1) : selectedCurrency === 'RUB' ? setCurrentRate(1.03) : getCurrentRate(selectedCurrency);
 }, [selectedCurrency]);
+
+useEffect(() => {
+const currentMode: string | null = localStorage.getItem("mode");
+setMode(currentMode || "");
+}, []);
 
   return (
     <>
@@ -55,9 +62,12 @@ useEffect(() => {
       currentRate,
       direction,
       meta,
+      setMode,
+      mode,
     }}>
     <Nav />
-    <Products />
+    {isLoading ? <Loader /> :
+    <Products />}
     </HomeContext.Provider>
     </>
   );

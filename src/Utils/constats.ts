@@ -64,8 +64,17 @@ export const languages: { id: number; name: string; code: string; lname: string 
   export const translationsEnglish = {
     meta: {
       available: 'Available',
+      title: 'Welcome to Shoe World!',
+      contact:{
+        name:'Reach out to use and say Hello!',
+        email:'maheshc2002k@gmail.com',
+        phone:'7095948442',
+        linkedin: 'https://www.linkedin.com/in/mahesh-cheema-a7b771271/',
+        github: 'https://github.com/CheemaMahesh',
+      },
       sold: 'Sold',
-    },
+      aboutContent: "We are a dedicated footwear reselling organization focused on providing the latest styles to our customers. Our collection features popular brands that reflect current trends, ensuring quality and comfort in every pair.Our user-friendly platform makes shopping easy and enjoyable. We believe that footwear is a personal expression of style, and we strive to help you find the perfect pair that suits your individuality. Join us in exploring our curated selection and experience the difference in quality and service that sets us apart.",
+  },
     products: [
       {
         name: "Nike Dunk Low Retro",
