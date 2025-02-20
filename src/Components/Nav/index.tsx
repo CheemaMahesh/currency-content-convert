@@ -14,35 +14,54 @@ interface NavProps { };
 
 const Nav = ({ }: NavProps) => {
     const { i18n } = useTranslation();
-    const { selectedLanguage, selectedCurrency, setSelectedLanguage, setSelectedCurrency, setCurrencySymbol, mode, setMode } = useContext(HomeContext);
-    const handleReset = () => {
-        setSelectedLanguage("en");
-        i18n.changeLanguage("en");
-        setSelectedCurrency("INR");
-        setCurrencySymbol("₹");
-    }
+    const { setCurrentDetails, currentDetails } = useContext(HomeContext);
 
+    const handleReset = () => {
+        i18n.changeLanguage("en");
+        setCurrentDetails({
+            ...currentDetails,
+            selectedLanguage: "en",
+            selectedCurrency: "INR",
+            currencySymbol: "₹",
+            currentRate: 1.00,
+            direction: "ltr",
+        });
+        localStorage.removeItem("language");
+        localStorage.removeItem("currency");
+    };
+    
     const changeLanguage = (language: string) => {
-        setSelectedLanguage(language);
         i18n.changeLanguage(language);
+        localStorage.setItem("language", language);
+        setCurrentDetails({
+            ...currentDetails,
+            selectedLanguage: language
+        });
     };
 
     const selectCurrency = (currency: string) => {
-        setSelectedCurrency(currency);
-        setCurrencySymbol(currencies.find((c) => c.symbol === currency)?.currencySymbol || '₹');
+        localStorage.setItem("currency", currency);
+        setCurrentDetails({
+            ...currentDetails,
+            selectedCurrency: currency,
+            currencySymbol: currencies.find((c) => c.symbol === currency)?.currencySymbol || '₹',
+        });
     }
 
     const toggleMode = (type: string) => {
         localStorage.setItem('mode', type);
-        setMode(type);
+        setCurrentDetails(({
+            ...currentDetails,
+            mode: type,
+        }))
     };
 
     return (
-        <div className={`sticky top-0 z-50 ${mode == 'Night' ? 'bg-black text-white shadow-blue-400' : 'bg-white shadow-[#000]'} flex w-full h-[85px] max-sm:gap-1 shadow-md items-center justify-between gap-4 py-2 px-4`}>
+        <div className={`sticky top-0 z-50 ${currentDetails?.mode == 'Night' ? 'bg-black text-white shadow-blue-400' : 'bg-white shadow-[#000]'} flex w-full h-[85px] max-sm:gap-1 shadow-md items-center justify-between gap-4 py-2 px-4`}>
             <div className="flex w-fit h-[85px] gap-1  py-2 font-mono max-sm:items-center max-sm:mt-5 max-sm:py-1">
                 <div className="flex flex-col w-fit h-full gap-1 font-mono max-sm:items-center max-sm:mt-5 max-sm:py-1">
                     <label className="font-semibold cursor-pointer text-md max-sm:hidden" htmlFor="languages">Select Language</label>
-                    <select id="languages" onChange={(e) => changeLanguage(String(e.target.value))} value={selectedLanguage} className="font-semibold w-fit max-sm:w-full">
+                    <select id="languages" onChange={(e) => changeLanguage(String(e.target.value))} value={currentDetails?.selectedLanguage} className="font-semibold w-fit max-sm:w-full">
                         {languages?.map((language) => (
                             <option className="font-bold" key={language.code} value={language.code}>
                                 {`${language.name}${language.lname !== 'English' ? " - " + language.lname : ''}`}
@@ -53,7 +72,7 @@ const Nav = ({ }: NavProps) => {
                 &emsp;
                 <div className="flex flex-col w-fit h-full gap-1 font-mono max-sm:items-center max-sm:mt-6 max-sm:py-1">
                     <label className="font-semibold cursor-pointer text-md max-sm:hidden" htmlFor="currencies">Select Currency</label>
-                    <select onChange={(e) => selectCurrency(String(e.target.value))} value={selectedCurrency} id="currencies" className="font-semibold w-fit max-sm:w-full">
+                    <select onChange={(e) => selectCurrency(String(e.target.value))} value={currentDetails?.selectedCurrency} id="currencies" className="font-semibold w-fit max-sm:w-full">
                         {currencies?.map((currencie) => (
                             <option className="font-bold" key={currencie.id} value={currencie.symbol}>
                                 {`${currencie.symbol} - ${currencie.name}`}
@@ -66,10 +85,10 @@ const Nav = ({ }: NavProps) => {
             <div className="w-fit h-full flex gap-3 items-center">
                 <div onClick={handleReset} className=" px-6 flex py-1 rounded-md w-fit h-fit items-center justify-between gap-2 cursor-pointer transition-all duration-300 ease-in-out bg-blue-400 text-semibold hover:-translate-y-[1px] hover:-translate-x-[1px] hover:shadow-lg hover:bg-blue-400 active:translate-y-1 active:translate-x-1 active:shadow-lg active:bg-blue-500">
                     <p className="font-semibold ">Reset</p>
-                    <Image src={mode === 'Night' ? darkReset : reset} alt="reset" className="w-4 h-4" />
+                    <Image src={currentDetails?.mode === 'Night' ? darkReset : reset} alt="reset" className="w-4 h-4" />
                 </div>
-                <div>
-                    <Image onClick={() => toggleMode(mode === 'Night' ? 'Day' : 'Night')} className="w-[25px] h-[25px] cursor-pointer" src={mode === 'Night' ? Sun : Moon} alt="Mode" />
+                <div className="w-fit h-fit rounded-full hover:shadow-md hover:shadow-blue-600 hover:p-2 p-1 max-sm:w-[35px] max-sm:h-[35px] max-sm:shadow-none">
+                    <Image onClick={() => toggleMode(currentDetails?.mode === 'Night' ? 'Day' : 'Night')} className="w-[25px] h-[25px] cursor-pointer" src={currentDetails?.mode === 'Night' ? Sun : Moon} alt="Mode" />
                 </div>
             </div>
         </div>

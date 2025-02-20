@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import { HomeContext } from '@/Utils/context';
 
 const Loader: React.FC = () => {
-    const { mode } = useContext(HomeContext);
+    const { currentDetails } = useContext(HomeContext);
     return (
-        <div className={`flex flex-col h-fit bg-gradient-to-r ${mode == 'Night' ? 'from-black to-[#898D86] text-white' : 'from-blue-400 to-white'}`}>
+        <div className={`flex flex-col h-fit bg-gradient-to-r ${currentDetails?.mode == 'Night' ? 'from-black to-[#898D86] text-white' : 'from-blue-400 to-white'}`}>
             {/* <div className='animate-pulse w-full h-[75px] bg-gray-300'></div> */}
-            <div className={`w-full h-fit bg-gradient-to-r ${mode == 'Night' ? 'from-black to-[#898D86] text-white' : 'from-blue-400 to-white'} py-3`}>
+            <div className={`w-full h-fit bg-gradient-to-r ${currentDetails?.mode == 'Night' ? 'from-black to-[#898D86] text-white' : 'from-blue-400 to-white'} py-3`}>
             <div className='animate-pulse w-3/12 h-[50px] rounded-md bg-gray-300 p-2 m-2'></div>
                 <div className='flex justify-center flex-col gap-3 px-16'>
                     {Array(4)?.fill(null)?.map((_, index) => (
