@@ -15,7 +15,7 @@
 
 <h2>About</h2>
 <hr/>
-<h3>Technologies used</h3>
+<h3>Technologies and Dependencies used</h3>
 <ol>
   <li>Next.js</li>
   <li>Tailwind</li>
