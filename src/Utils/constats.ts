@@ -62,6 +62,10 @@ export const languages: { id: number; name: string; code: string; lname: string 
 
 
   export const translationsEnglish = {
+    meta: {
+      available: 'Available',
+      sold: 'Sold',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
@@ -460,6 +464,10 @@ export const languages: { id: number; name: string; code: string; lname: string 
   };
 
   export const translationsSpanish = {
+    meta: {
+      available: 'Disponible',
+      sold: 'Venta',
+    },
     products: [
       {
         name: "Nike Dunk Bajo Retro",
@@ -858,6 +866,10 @@ export const languages: { id: number; name: string; code: string; lname: string 
   };
 
 export const translationsFrench = {
+  meta: {
+    available: 'Disponible',
+    sold: 'Vendue',
+  },
   products: [
     {
       name: "Nike Dunk Bas Retro",
@@ -1256,6 +1268,10 @@ export const translationsFrench = {
 };
 
 export const translationsGerman = {
+  meta: {
+    available: 'Verfügbar',
+    sold: 'verkauft',
+  },
   products: [
     {
       name: "Nike Dunk Niedrig Retro",
@@ -1654,6 +1670,10 @@ export const translationsGerman = {
 };
 
   export const translationsChinese = {
+    meta:{
+      available: "可用的",
+      sold: '销售',
+    },
     products: [
       {
         name: "耐克低帮复古鞋",
@@ -2039,6 +2059,10 @@ export const translationsGerman = {
   };
 
   export const translationsArabic = {
+    meta:{
+      available: "متاح",
+      sold: 'مُباع',
+    },
     products: [
       {
         name: "نايكي دانك لو ريترو",
@@ -2437,6 +2461,10 @@ export const translationsGerman = {
   };
 
   export const translationsJapanese = {
+    meta:{
+      available: "利用可能",
+      sold: '販売済み',
+    },
     products: [
       {
         name: "ナイキ ダンク ロー レトロ",
@@ -2835,6 +2863,10 @@ export const translationsGerman = {
   };
 
   export const translationsRussian = {
+    meta:{
+      available: "利用可能",
+      sold: '販売済み',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
@@ -3233,6 +3265,10 @@ export const translationsGerman = {
   };
 
   export const translationsPortuguese = {
+    meta:{
+      available: "利用可能",
+      sold: '販売済み',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
@@ -3631,6 +3667,10 @@ export const translationsGerman = {
   };
 
   export const translationsHindi = {
+    meta:{
+      available: "उपलब्ध",
+      sold: 'बिका हुआ',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
@@ -4029,6 +4069,10 @@ export const translationsGerman = {
   };
 
   export const translationsKorean = {
+    meta:{
+      available: "사용 가능",
+      sold: '판매된',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
@@ -4427,6 +4471,10 @@ export const translationsGerman = {
   };
 
   export const translationsItalian = {
+    meta:{
+      available: "Disponibile",
+      sold: 'venduto',
+    },
     products: [
       {
         name: "Nike Dunk Low Retro",
