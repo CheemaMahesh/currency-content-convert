@@ -16,6 +16,8 @@ import {
   translationsItalian,
 } from "../Utils/constats";
 
+// i18next setup--------------------------
+
 i18n
   .use(I18nextBrowserLanguageDetector)
   .use(initReactI18next)

@@ -29,6 +29,7 @@ export default function Home() {
 
   const { i18n, t } = useTranslation();
 
+  // Function to get current currency rate (API Call)
   const getCurrentRate = async (currency: string) => {
     setIsLoading(true);
     const rate = await getCurrentCurrency(currency);
@@ -39,6 +40,7 @@ export default function Home() {
     setIsLoading(false);
   }
 
+  // TO set the direction based on the language and TO get the products
   useEffect(() => {
     document.body.dir = i18n.dir();
     setCurrentDetails((prev) => ({
@@ -50,10 +52,12 @@ export default function Home() {
     setMeta(t('meta'));
   }, [i18n.dir(), currentDetails?.selectedLanguage]);
 
+// TO get the current currency rate based on Selection
   useEffect(() => {
     currentDetails?.selectedCurrency === 'INR' ? setCurrentDetails({ ...currentDetails, currentRate: 1.0000 }) : currentDetails?.selectedCurrency === 'RUB' ? setCurrentDetails({ ...currentDetails, currentRate: 1.03 }) : getCurrentRate(currentDetails?.selectedCurrency);
   }, [currentDetails?.selectedCurrency]);
 
+  // TO get the PREV/EXISTING Details
   useEffect(() => {
     setCurrentDetails((prev) => ({
       ...prev,

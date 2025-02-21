@@ -16,6 +16,7 @@ const Nav = ({ }: NavProps) => {
     const { i18n } = useTranslation();
     const { setCurrentDetails, currentDetails } = useContext(HomeContext);
 
+    // Function to reset language and currency
     const handleReset = () => {
         i18n.changeLanguage("en");
         setCurrentDetails({
@@ -30,6 +31,7 @@ const Nav = ({ }: NavProps) => {
         localStorage.removeItem("currency");
     };
     
+    // Function to change language
     const changeLanguage = (language: string) => {
         i18n.changeLanguage(language);
         localStorage.setItem("language", language);
@@ -39,6 +41,7 @@ const Nav = ({ }: NavProps) => {
         });
     };
 
+    // Function to select currency
     const selectCurrency = (currency: string) => {
         localStorage.setItem("currency", currency);
         setCurrentDetails({
@@ -48,6 +51,7 @@ const Nav = ({ }: NavProps) => {
         });
     }
 
+    // Function to toggle mode
     const toggleMode = (type: string) => {
         localStorage.setItem('mode', type);
         setCurrentDetails(({

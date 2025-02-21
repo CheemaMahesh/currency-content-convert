@@ -11,6 +11,7 @@ const Products = () => {
     const { products, currentDetails, meta, } = useContext(HomeContext);
     const { t } = useTranslation();
 
+    // Function to get currency value with current rate
     const getCurrencyWithValue = (value: number) => {
         return value * currentDetails?.currentRate;
     }
