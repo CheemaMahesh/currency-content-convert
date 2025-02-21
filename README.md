@@ -32,8 +32,56 @@
   <li>Next.js</li>
   <li>Tailwind</li>
   <li>Axios</li>
-  <li>i18next</li>
+  <li>i18next and corresponding dependencies with i18n</li>
 </ol>
+<hr/>
+<h2>Folder Structure</h2>
+currency-text-convert
+│
+├── .git
+├── .gitignore
+├── .next
+├── README.md
+├── next-env.d.ts
+├── next.config.ts
+├── node_modules
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── postcss.config.mjs
+├── public
+│   └── (5 files)
+├── src
+│   ├── Assets
+│   │   ├── Product (15 files)
+│   │   ├── email.png
+│   │   ├── git.png
+│   │   ├── linkedin.png
+│   │   ├── moon.png
+│   │   ├── phone.png
+│   │   ├── reset_dark_mode.png
+│   │   ├── reset_light_mode.png
+│   │   └── sun.png
+│   ├── Components
+│   │   ├── Hooks (1 file)
+│   │   ├── Loader (1 file)
+│   │   ├── Nav (2 files)
+│   │   └── Products (1 file)
+│   ├── Utils
+│   │   ├── constats.ts
+│   │   ├── context.ts
+│   │   └── interfaces.ts
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── i18utils
+│       └── index.ts
+├── tailwind.config.js
+├── tailwind.config.ts
+└── tsconfig.json
+
 <hr/>
 <h3>Features</h3>
 <ol>
@@ -44,10 +92,9 @@
 <hr />
 <h3>Future Enhancments</h3>
 <ul>
-  <li>
+  <li>Adding env</li>
     <li>Better UI/UX</li>
   <li>Integration of Backend</li>
   <li>Storing data in DB insted of Storing it in Front End</li>
-  </li>
 </ul>
 
