@@ -59,12 +59,14 @@ export default function Home() {
 
   // TO get the PREV/EXISTING Details
   useEffect(() => {
+    const language = localStorage.getItem("language");
     setCurrentDetails((prev) => ({
       ...prev,
-      selectedLanguage: localStorage.getItem("language") || "en",
+      selectedLanguage: language || "en",
       selectedCurrency: localStorage.getItem("currency") || "INR",
       mode: localStorage.getItem("mode") || "",
     }));
+    i18n.changeLanguage(language || "en");
     setRenderCount((prev) => prev + 1);
   }, []);
 
