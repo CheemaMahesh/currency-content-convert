@@ -67,6 +67,7 @@ export default function Home() {
       selectedCurrency: localStorage.getItem("currency") || "INR",
       mode: localStorage.getItem("mode") || "",
       currencySymbol: currencies.find((c) => c.symbol === localStorage.getItem("currency"))?.currencySymbol || '₹',
+      direction: i18n.dir(),
     }));
     i18n.changeLanguage(language || "en");
     setRenderCount((prev) => prev + 1);
