@@ -36,51 +36,51 @@
 </ol>
 <hr/>
 <h2>Folder Structure</h2>
-currency-text-convert
-│
-├── .git
-├── .gitignore
-├── .next
-├── README.md
-├── next-env.d.ts
-├── next.config.ts
-├── node_modules
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── postcss.config.mjs
-├── public
-│   └── (5 files)
-├── src
-│   ├── Assets
-│   │   ├── Product (15 files)
-│   │   ├── email.png
-│   │   ├── git.png
-│   │   ├── linkedin.png
-│   │   ├── moon.png
-│   │   ├── phone.png
-│   │   ├── reset_dark_mode.png
-│   │   ├── reset_light_mode.png
-│   │   └── sun.png
-│   ├── Components
-│   │   ├── Hooks (1 file)
-│   │   ├── Loader (1 file)
-│   │   ├── Nav (2 files)
-│   │   └── Products (1 file)
-│   ├── Utils
-│   │   ├── constats.ts
-│   │   ├── context.ts
-│   │   └── interfaces.ts
-│   ├── app
-│   │   ├── favicon.ico
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   └── page.tsx
-│   └── i18utils
-│       └── index.ts
-├── tailwind.config.js
-├── tailwind.config.ts
-└── tsconfig.json
+currency-text-convert<br />
+│<br />
+├── .git<br />
+├── .gitignore<br />
+├── .next<br />
+├── README.md<br />
+├── next-env.d.ts<br />
+├── next.config.ts<br />
+├── node_modules<br />
+├── package-lock.json<br />
+├── package.json<br />
+├── postcss.config.js<br />
+├── postcss.config.mjs<br />
+├── public<br />
+│   └── (5 files)<br />
+├── src<br />
+│   ├── Assets<br />
+│   │   ├── Product (15 files)<br />
+│   │   ├── email.png<br />
+│   │   ├── git.png<br />
+│   │   ├── linkedin.png<br />
+│   │   ├── moon.png<br />
+│   │   ├── phone.png<br />
+│   │   ├── reset_dark_mode.png<br />
+│   │   ├── reset_light_mode.png<br />
+│   │   └── sun.png<br />
+│   ├── Components<br />
+│   │   ├── Hooks (1 file)<br />
+│   │   ├── Loader (1 file)<br />
+│   │   ├── Nav (2 files)<br />
+│   │   └── Products (1 file)<br />
+│   ├── Utils<br />
+│   │   ├── constats.ts<br />
+│   │   ├── context.ts<br />
+│   │   └── interfaces.ts<br />
+│   ├── app<br />
+│   │   ├── favicon.ico<br />
+│   │   ├── globals.css<br />
+│   │   ├── layout.tsx<br />
+│   │   └── page.tsx<br />
+│   └── i18utils<br />
+│       └── index.ts<br />
+├── tailwind.config.js<br />
+├── tailwind.config.ts<br />
+└── tsconfig.json<br />
 
 <hr/>
 <h3>Features</h3>
