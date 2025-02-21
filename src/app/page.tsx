@@ -9,6 +9,7 @@ import Products from "@/Components/Products";
 import { Product, CurrentDetails } from "@/Utils/interfaces";
 import useGetCurrentCurrency from "@/Components/Hooks/useGetCurrentCurrecny";
 import Loader from "@/Components/Loader";
+import { currencies } from "@/Utils/constats";
 
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
       selectedLanguage: language || "en",
       selectedCurrency: localStorage.getItem("currency") || "INR",
       mode: localStorage.getItem("mode") || "",
+      currencySymbol: currencies.find((c) => c.symbol === localStorage.getItem("currency"))?.currencySymbol || '₹',
     }));
     i18n.changeLanguage(language || "en");
     setRenderCount((prev) => prev + 1);
